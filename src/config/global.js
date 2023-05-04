@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Construcción y despliegue de contratos inteligentes',
+    descripcionCurso:
+      'Mediante el presente componente, se brindarán los conceptos y recomendaciones necesarias para la creación de un contrato inteligente sobre una red de <em>blockchain</em>, haciendo uso de herramientas y lenguajes de programación especializados.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,18 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
       },
     ],
   },
@@ -32,30 +45,92 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Construcción de contratos inteligentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Definición, características',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Limitaciones de contratos inteligentes',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Estructura del contrato',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plataforma Ethereum',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'EVM Ethereum Virtual Machine',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Instalación y Configuración',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Principios básicos de <em>Solidity</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Expresiones',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Estructuras de control',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Estructuras repetitivas',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Funciones',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Desplegar contratos inteligentes',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Entorno de prueba y desarrollo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Entorno de ejecución',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -100,32 +175,114 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Construcción contratos inteligentes',
+      referencia:
+        'Solitidy. (2022). Introducción a los contratos inteligentes.',
+      tipo: 'Página web',
+      link: 'https://docs.soliditylang.org',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Construcción contratos inteligentes',
+      referencia: 'Solitidy (2022), Solidity Documentation.',
+      tipo: 'Manual electrónico',
+      link: 'https://solidity-es.readthedocs.io/es ',
+    },
+    {
+      tema: 'Instalación y Configuración',
+      referencia: 'Remix IDE. (2022). Welcome to Remix’s documentation.',
+      tipo: 'Manual electrónico',
+      link: 'https://remix-ide.readthedocs.io/en/latest ',
+    },
+    {
+      tema: 'Instalación y Configuración',
+      referencia: 'Ganache. (2022). Ganache documentation.',
+      tipo: 'Manual electrónico',
+      link: 'https://trufflesuite.com/docs/ganache',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Compilador',
+      significado:
+        'Programa que traduce un lenguaje de programación a un lenguaje comprensible por una máquina.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Constante',
+      significado:
+        'Palabra que permite almacenar información de manera permanente mientras se ejecute un programa, sin posibilidad de actualizarlo.',
+    },
+    {
+      termino: '<em>Deploy</em>',
+      significado:
+        'Opción que permite desplegar un contrato inteligente dentro de una red de <em>blockchain</em>, para obtener su dirección de identificación.',
+    },
+    {
+      termino: 'Función',
+      significado:
+        'Conjunto de código de instrucciones de un lenguaje de programación, que puede ser invocado desde otro lugar del mismo proyecto, algunas funciones pueden regresar valores o no.',
+    },
+    {
+      termino: 'Variable',
+      significado:
+        'Es una palabra que representa un objeto y que su valor puede variar de acuerdo al tipo de información que recibe.',
+    },
+    {
+      termino: '<em>Workspace</em>',
+      significado:
+        'Es un espacio de trabajo en donde se almacenarán los archivos de un proyecto.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arroyo Guardeño, D. Díaz Vico, J. & Hernández Encinas, L. (2019). <em>Blockchain</em>. Editorial CSIC Consejo Superior de Investigaciones Científicas.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/111431 ',
+    },
+    {
+      referencia:
+        'Fuentes Blanco, E. A. (2022). Contratos inteligentes: un análisis teórico desde la autonomía privada en el ordenamiento jurídico colombiano. 1. Editorial Unimagdalena.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/214513',
+    },
+    {
+      referencia: '<em>Ganache</em>. (2022). <em>Ganache documentation</em>.',
+      link: 'https://trufflesuite.com/docs/ganache',
+    },
+    {
+      referencia:
+        'LogRocker (2021) <em>Writing smart contracts with Solidity</em>',
+      link: 'https://blog.logrocket.com/writing-smart-contracts-solidity',
+    },
+    {
+      referencia:
+        'MINTIC. (2022) Guía de referencia de <em>blockchain</em> para la adopción e implementación de proyectos en el estado colombiano. ',
+      link:
+        'https://gobiernodigital.mintic.gov.co/692/articles-161810_Ley_2052_2020.pdf',
+    },
+    {
+      referencia:
+        'Morant, A. (2018). Los 5 Beneficios de los <em>SMART CONTRACT</em>.',
+      link: 'https://www.alfonsomorant.com/5-beneficios-de-los-smart-contract/',
+    },
+    {
+      referencia:
+        'Remix IDE. (2022). <em>Welcome to Remix’s documentation</em>.',
+      link: 'https://remix-ide.readthedocs.io/en/latest',
+    },
+    {
+      referencia:
+        'Shashank (2019). <em>What are Smart Contracts? A Beginner’s Guide To Smart Contracts</em>.',
+      link: 'https://www.edureka.co/blog/smart-contracts/',
+    },
+    {
+      referencia: '<em>Solidity</em> (2022), <em>Solidity Documentation</em>.',
+      link: 'https://solidity-es.readthedocs.io/es',
+    },
+    {
+      referencia:
+        'Tudela, L (2019) Arquitectura <em>blockchain</em> para la securización de dispositivos iot mediante <em>smart contracts</em>.',
+      link: 'http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345',
     },
   ],
   creditos: [
@@ -148,9 +305,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Hernando José Peña Hidalgo	Experto Temático',
+          cargo: 'Experto Temático',
+          centro:
+            'Regional Cauca, Centro de teleinformática y producción industrial',
+        },
+        {
+          nombre: 'María Inés Machado López	Diseñador instruccional',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable del equipo de desarrollo curricular',
+          centro:
+            'Regional Santander. Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrector de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
@@ -158,14 +338,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Eulises Orduz Amezquita',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Nombre',

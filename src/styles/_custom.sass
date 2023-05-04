@@ -1,19 +1,202 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 4.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    bottom: 5%
+    left: -10%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 4.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    bottom: 28%
+    left: -8%
+  &-3
+    animation: vanish 6.0s ease-in-out infinite alternate
+    position: absolute
+    top: 7%
+    right: 12%
+  &-4
+    animation: float2 3.0s ease-in-out infinite alternate
+    position: absolute
+    bottom: 34%
+    right: -5%
+  &-5
+    animation: float1 3.0s ease-in-out infinite alternate
+    position: absolute
+    bottom: 12%
+    right: 5%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
-  100%
     transform: translateY(0px)
+  100%
+    transform: translateY(30px)
+  
+@keyframes float2
+  0%
+    transform: translateX(0px)
+  100%
+    transform: translateX(30px)
+
+@keyframes vanish
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+.banner-principal__row .banner-principal__img
+  width: 33%
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
+.BGIMG01, .BGR03, .BGIMG03, .BGR04, .BGIMG04, .BGR05,.BGR08,.BGR11
+  border-radius: 15px
+
+.BGR03
+  border: 3px solid #8628A5
+
+.BGB03
+  border: 1px solid #707070
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG03
+  background-image: url("../assets/curso/fondos/img03.png")
+
+.BGIMG04
+  background-image: url("../assets/curso/fondos/img04.png")
+
+.BGIMG05
+  background-image: url("../assets/curso/fondos/img05.png")
+
+.BGIMG06
+  background-image: url("../assets/curso/fondos/img06.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG06
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG02, .BGM01, .BGM04, .BGIMG05, .BGIMG06, .BGM09, .BGM12
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  
+.BGM01
+  background-color: #37004A
+
+.BG02
+  background-color: $color-secundario
+
+.BGR03, .BGB03
+  background-color: $white
+
+.BGM04, .BGR04
+  background-color: #D2E1F1
+
+.BGR04.acordion__activo
+  background-color: #F3F9FF
+
+.BGR05, .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #EDDFF2
+
+.BG06
+  background-color: #222336
+
+.BG07, .tabs-a__tab
+  background-color: #F6F6F6
+
+.BGR08
+  background: linear-gradient(to right, #8628A5, #68A4D9)
+
+.BGM09
+  background: linear-gradient(to bottom, $white, #E8F3FD, $white)
+
+.BG10, .BGRS10
+  background-color: #12263F
+
+.BG11, .BGR11
+  background-color: #F3F9FF
+
+.BGM12
+  background: linear-gradient(to right, $white, #FBF0FF, $white)
+
+.tabs-b.color-secundario .tabs-b__tab--active, .tabs-b__content-item
+  background-color: #F3E9F6
+
+.linea-tiempo-d__item__content__title
+  border-radius: 5px 5px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 5px 5px
+
+.BGRS10
+  border-radius: 15px 0 0 15px
+
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: $black
+
+.texto-primario
+  color: $color-primario
+
+.texto-secundario
+  color: $color-secundario
+
+.texto-secundario
+  color: $color-secundario
+
+.texto-verde
+  color: #5C864D
+
+.texto-azul
+  color: #4676A4
+
+.img-01
+  position: absolute
+  left: 50px
+  @media (max-width: $bp-max-lg)
+    position: relative
+    left: 0
+  
+.tarjeta-avatar .tarjeta
+  width: 100%
+
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -70%
+    @media (max-width: $bp-max-md)
+      bottom: -75%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -30%
+      @media (max-width: $bp-max-xl)
+        bottom: -15%
+      @media (max-width: $bp-max-lg)
+        bottom: 0
+      @media (max-width: $bp-max-md)
+        bottom: -30%
+      @media (max-width: $bp-max-sm)
+        bottom: -20%
+      @media (max-width: $bp-max-xs)
+        bottom: 0
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+
+      

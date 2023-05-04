@@ -1,0 +1,21 @@
+<svg id="Grupo_238462" data-name="Grupo 238462" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="89.25" viewBox="0 0 88 89.25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_314070" data-name="Rectángulo 314070" width="88" height="89.25" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_238430" data-name="Grupo 238430" clip-path="url(#clip-path)">
+    <path id="Trazado_233360" data-name="Trazado 233360" d="M46.254,83.434a3.549,3.549,0,1,0-3.549,3.549,3.549,3.549,0,0,0,3.549-3.549" fill="#f8a800"/>
+    <circle id="Elipse_5068" data-name="Elipse 5068" cx="3.549" cy="3.549" r="3.549" transform="translate(39.156 79.885)" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Trazado_233361" data-name="Trazado 233361" d="M61.381,26.611l13.965.353V72.936l-32.64-.353v6.609" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Línea_285" data-name="Línea 285" y2="8.727" transform="translate(42.705 6.76)" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Línea_286" data-name="Línea 286" y2="7.181" transform="translate(42.705 38.108)" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Trazado_233362" data-name="Trazado 233362" d="M42.705,59.155v8.5L12.654,68V26.964l10.3-.353" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Trazado_233363" data-name="Trazado 233363" d="M46.254,4.8a3.549,3.549,0,1,0-3.549,3.549A3.549,3.549,0,0,0,46.254,4.8" fill="#f8a800"/>
+    <circle id="Elipse_5069" data-name="Elipse 5069" cx="3.549" cy="3.549" r="3.549" transform="translate(39.156 1.25)" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Trazado_233364" data-name="Trazado 233364" d="M42.705,15.395,22.955,26.872l19.75,11.477,19.75-11.477Z" fill="#8628a5"/>
+    <path id="Trazado_233365" data-name="Trazado 233365" d="M42.705,15.395,22.955,26.872l19.75,11.477,19.75-11.477Z" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+    <rect id="Rectángulo_314068" data-name="Rectángulo 314068" width="41.035" height="17.212" transform="translate(22.188 44.837)" fill="#2ebfbf"/>
+    <rect id="Rectángulo_314069" data-name="Rectángulo 314069" width="41.035" height="17.212" transform="translate(22.188 44.837)" fill="none" stroke="#193651" stroke-miterlimit="10" stroke-width="2.5"/>
+  </g>
+</svg>
