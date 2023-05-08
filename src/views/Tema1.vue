@@ -118,7 +118,7 @@
       h2 1.2 Limitaciones de contratos inteligentes
 
     p Como se observó anteriormente, el campo de acción donde se pueden implementar contratos inteligentes es extenso, y se pueden abordar infinidad de proyectos para el intercambio de información de manera segura a través de redes de #[em blockchain].
-    p Ahora bien, dada su aplicabilidad y su robustez generada por sus características, también se puede ver afectado por ciertas limitaciones o restricciones para su adopción, se debe revisar algunos casos en donde se puede presentar cierta limitación (ver figura 3):
+    p.mb-5 Ahora bien, dada su aplicabilidad y su robustez generada por sus características, también se puede ver afectado por ciertas limitaciones o restricciones para su adopción, se debe revisar algunos casos en donde se puede presentar cierta limitación (ver figura 3):
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -170,7 +170,7 @@
           p.mb-0 A diferencia de los contratos tradicionales, los contratos inteligentes son programas codificados en un lenguaje de programación especializado que se despliega sobre una red de #[em blockchain], por lo cual su codificación obedece a una estructura sugerida de un documento electrónico.
     <br><br>
 
-    p No existe una estructura general definida por algún estándar, aunque sí hay algunos apartados importantes y obligatorios; en la siguiente imagen, se puede observar de forma general los apartados correspondientes de un contrato inteligente básico (ver figura 4):
+    p.mb-5 No existe una estructura general definida por algún estándar, aunque sí hay algunos apartados importantes y obligatorios; en la siguiente imagen, se puede observar de forma general los apartados correspondientes de un contrato inteligente básico (ver figura 4):
 
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -258,7 +258,7 @@
         .col-lg-10(data-aos="flip-up")
           .BGR08.p-3
             .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
+              .col-4.col-sm-3.col-lg-2.px-5
                 img(src="@/assets/curso/temas/img02.svg")
               .col
                 .row.justify-content-between.align-items-center

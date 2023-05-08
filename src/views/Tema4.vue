@@ -21,33 +21,33 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Modelo de contrato inteligente básico para pruebas
           .BG06.p-4(data-aos="fade-right")
-            p.texto-verde.mb-2 //COMPILADOR
-            p.text-white.mb-4 pragma solidity ^0.6.5;
-            p.texto-verde.mb-4 //IMPORTAR OTROS CONTRATOS, INTERFACES O LIBRERIAS
-            p.texto-verde.mb-2 //CUERPO DEL CONTRATO
-            p.text-white.mb-4 contract PrimerContrato{
-            p.texto-verde.mb-4 &nbsp;&nbsp;&nbsp;&nbsp;//LIBRERIAS
-            p.texto-verde.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;//DECLARACION DE VARIABLES
-            p.text-white.mb-4 &nbsp;&nbsp;&nbsp;&nbsp;uint private myValue;
-            p.texto-verde.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;//EVENTOS
-            p.texto-verde.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;//Registra los eventos del programa
-            p.text-white.mb-4 &nbsp;&nbsp;&nbsp;&nbsp;event LogSetMyValue (uint _myNewValue, address _sender);
-            p.texto-verde.mb-4 &nbsp;&nbsp;&nbsp;&nbsp;//MODIFICADORES
-            p.texto-verde.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;//CONSTRUCTOR
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;constructor(uint _myValue) public {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myValue = _myValue;
-            p.text-white.mb-4 &nbsp;&nbsp;&nbsp;&nbsp;}
-            p.texto-verde.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;//FUNCIONES
-            p.texto-verde.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;//Lee el valor de la variable myValue
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function getMyValue() public view returns (uint) {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return myValue;
-            p.text-white.mb-4 &nbsp;&nbsp;&nbsp;&nbsp;}
-            p.texto-verde.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;//Modifica el valor de la variable _myNewValue
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function setMyValue( uint _myNewValue) public {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myValue = _myNewValue;
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emit LogSetMyValue(myValue, msg.sender);
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;}
-            p.text-white.mb-2 }
+            p.texto-celeste.mb-0 <span style="color:#678F4E !important"> //COMPILADOR</span>
+              <br> pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.6.5</span><span style="color:#FFF !important">;</span>
+              <br><br> <span style="color:#678F4E !important">//IMPORTAR OTROS CONTRATOS, INTERFACES O LIBRERIAS</span>
+              <br> <span style="color:#678F4E !important"> //CUERPO DEL CONTRATO</span>
+              <br><br> contract PrimerContrato<span style="color:#9D76B7 !important">&#123;</span>
+              <br><br> <span style="color:#678F4E !important">&nbsp;&nbsp;&nbsp;&nbsp;//LIBRERIAS</span>
+              <br> <span style="color:#678F4E !important"> &nbsp;&nbsp;&nbsp;&nbsp;//DECLARACION DE VARIABLES</span>
+              <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> private myValue<span style="color:#FFF !important">;</span>
+              <br> <span style="color:#678F4E !important"> &nbsp;&nbsp;&nbsp;&nbsp;//EVENTOS</span>
+              <br> <span style="color:#678F4E !important"> &nbsp;&nbsp;&nbsp;&nbsp;//Registra los eventos del programa</span>
+              <br><br> &nbsp;&nbsp;&nbsp;&nbsp;event LogSetMyValue <span style="color:#F4A338 !important">(</span>uint _myNewValue<span style="color:#FFF !important">,</span> address _sender<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+              <br><br> <span style="color:#678F4E !important">&nbsp;&nbsp;&nbsp;&nbsp;//MODIFICADORES</span>
+              <br> <span style="color:#678F4E !important"> &nbsp;&nbsp;&nbsp;&nbsp;//CONSTRUCTOR</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;constructor<span style="color:#F4A338 !important">(</span>uint _myValue<span style="color:#F4A338 !important">)</span> <span style="color:#BDCDA6 !important">public</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myValue <span style="color:#FFF !important">=</span> _myValue<span style="color:#FFF !important">;</span>
+              <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+              <br> <span style="color:#678F4E !important"> &nbsp;&nbsp;&nbsp;&nbsp;//FUNCIONES</span>
+              <br> <span style="color:#678F4E !important"> &nbsp;&nbsp;&nbsp;&nbsp;//Lee el valor de la variable myValue</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> getMyValue<span style="color:#F4A338 !important">()</span> <span style="color:#BDCDA6 !important">public view</span> returns <span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return myValue<span style="color:#FFF !important">;</span>
+              <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+              <br> <span style="color:#678F4E !important"> &nbsp;&nbsp;&nbsp;&nbsp;//Modifica el valor de la variable _myNewValue</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> setMyValue<span style="color:#F4A338 !important">(</span> uint _myNewValue<span style="color:#F4A338 !important">)</span> <span style="color:#BDCDA6 !important">public</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myValue <span style="color:#FFF !important">=</span> _myNewValue<span style="color:#FFF !important">;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">emit</span> LogSetMyValue<span style="color:#F4A338 !important">(</span>myValue<span style="color:#FFF !important">,</span> msg<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">sender</span><span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+              <br> <span style="color:#9D76B7 !important">&#125;</span>
     
     p.text-center A continuación, se revisa el proceso para desplegarlo en la red de pruebas y desarrollo, así como en una red de producción.
               

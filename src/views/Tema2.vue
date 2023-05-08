@@ -246,7 +246,7 @@
       .BG10.p-3(x="65%" y="50%" numero="2")
         p.text-white.mb-0 Permite logs con mayor detalle.
       .BG10.p-3(x="88%" y="50%" numero="3")
-        p.text-white.mb-0 #[em Google Analytics]: Configura si comparte información con #[em Google Analytics] o no.
+        p.text-white.mb-0 Configura si comparte información con #[em Google Analytics] o no.
   
     p.mb-5 Finalmente, cuando se haya realizado y revisado la configuración, se puede hacer clic en el botón “#[em Save Workspace]”, para iniciar el espacio de trabajo. Tal como se muestra en la siguiente figura 14.
 

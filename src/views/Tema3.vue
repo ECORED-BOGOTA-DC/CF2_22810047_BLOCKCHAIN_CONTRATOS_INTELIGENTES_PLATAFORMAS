@@ -62,13 +62,13 @@
             .BGB03.p-2
               .h5.text-center.mb-0 Definición y uso de variables de estado
             .BG06.p-4
-              p.text-white.mb-2 pragma solidity ^0.5.0;
-              p.text-white.mb-2 contract SolidityTest {
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;uint storedData;      //Definición variable de estado
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;constructor() public {
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;storedData = 10;   //Uso de variable de estado
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;}
-              p.text-white.mb-0 }
+              p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
+                <br> contract <span style="color:#5573C6 !important">SolidityTest</span> <span style="color:#9D76B7 !important">&#123;</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> storedData<span style="color:#FFF !important">;</span>      <span style="color:#678F4E !important">//Definición variable de estado</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">constructor</span><span style="color:#9D76B7 !important">()</span> <span style="color:#84C0E2 !important">public</span> <span style="color:#9D76B7 !important">&#123;</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;storedData = 10<span style="color:#FFF !important">;</span>   <span style="color:#678F4E !important">//Uso de variable de estado</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+                <br> <span style="color:#9D76B7 !important">&#125;</span>
 
         .row.justify-content-center
           .col-lg-4.order-lg-1.order-2
@@ -78,19 +78,19 @@
             .BGB03.p-2
               .h5.text-center.mb-0 Definición y uso de variables locales
             .BG06.p-4
-              p.text-white.mb-2 pragma solidity ^0.5.0;
-              p.text-white.mb-2 contract SolidityTest {
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;uint storedData; //Definición variable de estado
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;constructor() public {
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;storedData = 10;   
-              p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;}
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function getResult() public view returns(uint){
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint a = 1; //Definición de variable local
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint b = 2;
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint result = a + b;
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result; //Uso de variable local
-              p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;}
-              p.text-white.mb-0 }
+              p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
+                <br> contract <span style="color:#5573C6 !important">SolidityTest</span> <span style="color:#9D76B7 !important">&#123;</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> storedData; <span style="color:#678F4E !important">//Definición variable de estado</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">constructor</span><span style="color:#9D76B7 !important">()</span> <span style="color:#84C0E2 !important">public</span> <span style="color:#9D76B7 !important">&#123;</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;storedData <span style="color:#FFF !important">=</span> 10<span style="color:#FFF !important">;</span>   
+                <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> <span style="color:#BDCDA6 !important">getResult</span><span style="color:#9D76B7 !important">()</span> <span style="color:#BDCDA6 !important">public view returns</span><span style="color:#9D76B7 !important">(</span>uint<span style="color:#9D76B7 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> a <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">1</span><span style="color:#FFF !important">;</span> <span style="color:#678F4E !important">//Definición de variable local</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> b <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">2</span><span style="color:#FFF !important">;</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> result <span style="color:#FFF !important">=</span> a <span style="color:#FFF !important">+</span> b<span style="color:#FFF !important">;</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">return</span> result<span style="color:#FFF !important">;</span> <span style="color:#678F4E !important">//Uso de variable local</span>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+                <br><br> <span style="color:#9D76B7 !important">&#125;</span>
 
         .row.justify-content-center
           .col-lg-3.order-lg-1.order-2
@@ -217,33 +217,33 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Definición y uso de alcance de las variables
           .BG06.p-4(data-aos="fade-right")
-            p.text-white.mb-2 pragma solidity ^0.5.0;
-            p.text-white.mb-2 contract C {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp; uint public data = 30;
-            p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp; uint internal iData= 10;
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp; function x() public returns (uint) {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data = 3; // internal access
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return data;
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp; }
-            p.text-white.mb-5 }
-            p.text-white.mb-2 contract Caller {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp; C c = new C();
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp; function f() public view returns (uint) {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return c.data(); //external access
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;}
-            p.text-white.mb-5 }
-            p.text-white.mb-2 contract D is C {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp; function y() public returns (uint) {
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iData = 3; // internal access
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return iData;
-            p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;}
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function getResult() public view returns(uint){
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; uint a = 1; // local variable
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; uint b = 2;
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; uint result = a + b;
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return storedData; //access the state variable
-            p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;}
-            p.text-white.mb-2 }
+            p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
+              <br> contract <span style="color:#5573C6 !important">C</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">uint</span> <span style="color:#BDCDA6 !important">public</span> data <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">30</span><span style="color:#FFF !important">;</span>
+              <br><br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">uint</span> internal iData<span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#FFF !important">;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#5573C6 !important">function</span> x<span style="color:#9D76B7 !important">()</span> <span style="color:#BDCDA6 !important">public</span> <span style="color:#5573C6 !important">returns</span> <span style="color:#9D76B7 !important">(</span><span style="color:#BDCDA6 !important">uint</span><span style="color:#9D76B7 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">3</span><span style="color:#FFF !important">;</span> <span style="color:#678F4E !important">// internal access</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#9D76B7 !important">return</span> data<span style="color:#FFF !important">;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#9D76B7 !important">&#125;</span>
+              <br><br> <span style="color:#9D76B7 !important">&#125;</span>
+              <br> contract <span style="color:#5573C6 !important">Caller</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">C</span> c <span style="color:#FFF !important">=</span> new <span style="color:#5573C6 !important">C</span><span style="color:#9D76B7 !important">()</span><span style="color:#FFF !important">;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#5573C6 !important">function</span> f<span style="color:#9D76B7 !important">()</span> <span style="color:#BDCDA6 !important">public</span> view <span style="color:#5573C6 !important">returns</span> <span style="color:#9D76B7 !important">(</span><span style="color:#BDCDA6 !important">uint</span><span style="color:#9D76B7 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#9D76B7 !important">return</span> c<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">data</span><span style="color:#9D76B7 !important">()</span><span style="color:#FFF !important">;</span> <span style="color:#678F4E !important">//external access</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+              <br><br> <span style="color:#9D76B7 !important">&#125;</span>
+              <br> contract <span style="color:#5573C6 !important">D</span> is <span style="color:#5573C6 !important">C</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#5573C6 !important">function</span> y<span style="color:#9D76B7 !important">()</span> <span style="color:#BDCDA6 !important">public</span> <span style="color:#5573C6 !important">returns</span> <span style="color:#9D76B7 !important">(</span><span style="color:#BDCDA6 !important">uint</span><span style="color:#9D76B7 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iData <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">3</span><span style="color:#FFF !important">;</span> <span style="color:#678F4E !important">// internal access</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#9D76B7 !important">return</span> iData<span style="color:#FFF !important">;</span>
+              <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> getResult<span style="color:#9D76B7 !important">()</span> <span style="color:#BDCDA6 !important">public</span> view <span style="color:#5573C6 !important">returns</span><span style="color:#9D76B7 !important">(</span><span style="color:#BDCDA6 !important">uint</span><span style="color:#9D76B7 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">uint</span> a <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">1</span><span style="color:#FFF !important">;</span> <span style="color:#678F4E !important">// local variable</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">uint</span> b <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">2</span><span style="color:#FFF !important">;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">uint</span> result <span style="color:#FFF !important">=</span> a <span style="color:#FFF !important">+</span> b<span style="color:#FFF !important">;</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#9D76B7 !important">return</span> storedData<span style="color:#FFF !important">;</span> <span style="color:#678F4E !important">//access the state variable</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+              <br> <span style="color:#9D76B7 !important">&#125;</span>
     
     p Otra expresión a tener en cuenta son los #[strong Operadores]. Los operadores como su nombre lo indica, permiten realizar operaciones y asignaciones de valor entre variables, por ejemplo, en la siguiente expresión 5 + 7 es igual a 12. Aquí 5 y 7 se llaman operandos y ‘+’ se llama el operador. 
     p.mb-5 #[em Solidity] soporta diferentes tipos de operadores que se explican a continuación:
@@ -482,9 +482,9 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Declaración y uso de una variable de tipo address
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.text-white.mb-2 address x = 0x212;
-            p.text-white.mb-2 address myAddress = this;
-            p.text-white.mb-0 if (x.balance &lt; 10 &amp;&amp; myAddress.balance &gt;= 10) x.transfer(10);
+            p.texto-celeste.mb-0 address x <span style="color:#FFF !important">=</span> 0x212;
+              <br> address myAddress <span style="color:#FFF !important">=</span> <span style="color:#5573C6 !important">this</span><span style="color:#FFF !important">;</span>
+              <br> <span style="color:#9D76B7 !important">if</span> <span style="color:#F4A338 !important">(</span>x<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">balance</span> <span style="color:#FFF !important">&lt;</span> <span style="color:#BDCDA6 !important">10</span> <span style="color:#9D76B7 !important">&amp;&amp;</span> myAddress<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">balance</span> <span style="color:#FFF !important">&gt;</span><span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">)</span> x<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">transfer</span><span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
           .BG07.p-2
             p.text-center.mb-0 #[strong Nota]. SENA (2022).
     
@@ -498,7 +498,7 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Declaración de un array de tipo uint de 10 posiciones
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.text-white.mb-0 uint balance[10];
+            p.texto-celeste.mb-0 <span style="color:#BDCDA6 !important">uint</span> balance<span style="color:#F4A338 !important">[</span><span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">]</span><span style="color:#FFF !important">;</span>
       
       .h5.text-center.mb-5 Si se desea declarar una matriz de tamaño dinámico en #[em Solidity], se debe especificar el tipo de elementos de la siguiente manera:
       .row.justify-content-center.mb-5
@@ -506,7 +506,7 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Declaración de un array de tamaño dinámico
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.text-white.mb-0 uint[] memory a = new uint[](7);
+            p.texto-celeste.mb-0 <span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">[ ]</span> memory a <span style="color:#FFF !important">=</span> <span style="color:#5573C6 !important">new</span> <span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">[ ](</span><span style="color:#BDCDA6 !important">7</span><span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
       
       .h5.text-center.mb-5 Ahora bien, si se requiere acceder a una posición para leer o escribir un dato, se puede acceder invocando la posición que se desea trabajar, así:
       .row.justify-content-center.mb-5
@@ -514,7 +514,7 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Lectura de una posición de un array
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.text-white.mb-0 uint salary = balance[2];
+            p.texto-celeste.mb-0 <span style="color:#BDCDA6 !important">uint</span> salary <span style="color:#FFF !important">=</span> balance<span style="color:#F4A338 !important">[</span><span style="color:#BDCDA6 !important">2</span><span style="color:#F4A338 !important">]</span><span style="color:#FFF !important">;</span>
     
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -546,7 +546,6 @@
       .py-4.py-md-5(titulo="For" :icono="require('@/assets/curso/tema3/img09.svg')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
-            h4 For
             p Esta estructura de control iterativa, nos permite ejecutar de manera repetitiva un bloque de instrucciones, conociendo previamente un valor de inicio, un tamaño de paso y un valor final para el ciclo, y su declaración está compuesta por los siguientes 3 elementos.
             ul.lista-ul--color
               li
@@ -564,14 +563,12 @@
       .py-4.py-md-5(titulo="While" :icono="require('@/assets/curso/tema3/img11.svg')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
-            h4 While
             p.mb-0 Esta también es una estructura cíclica, que nos permite ejecutar sentencias de manera repetitiva sin necesidad de tener un valor inicial o final, esta estructura no depende de valores numéricos, sino de valores booleanos, es decir continúa con su ciclo mientras una condición sea verdadera, en caso contrario terminará, a continuación, vamos a ver el flujo de la estructura while.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img12.svg")
       .py-4.py-md-5(titulo="Do" :icono="require('@/assets/curso/tema3/img13.svg')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
-            h4 Do
             p El ciclo do... while trabaja de manera similar al ciclo while con la excepción que la comprobación de condición ocurre al final del bucle. Esto significa que el bucle siempre se ejecutará al menos una vez, incluso si la condición es falsa.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img14.svg")
@@ -581,48 +578,47 @@
         .BGB03.p-2(data-aos="fade-right")
           .h5.text-center.mb-0 Uso de estructuras de control de #[em solidity] en un contrato inteligente
         .BG06.p-4.mb-4(data-aos="fade-right")
-          p.text-white.mb-2 pragma solidity ^0.5.0;
-          p.text-white.mb-2 contract SolidityTest {
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;uint storedData;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;constructor() public{
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;storedData = 10;
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function getResult() public view returns(string memory){
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint a = 1;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint b = 2;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint result = a + b;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return integerToString(result);
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function integerToString(uint _i) internal pure
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;returns (string memory) {
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (_i == 0) {
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "0";
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint j = _i;
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint len;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while (true) {
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;len++;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;j /= 10;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(j==0){
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bytes memory bstr = new bytes(len);
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint k = len - 1;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while (_i != 0) {
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bstr[k--] = byte(uint8(48 + _i % 10));
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_i /= 10;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return string(bstr);
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 }
+          p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
+            <br> contract <span style="color:#5573C6 !important">SolidityTest</span> <span style="color:#9D76B7 !important">&#123;</span>
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> storedData<span style="color:#BDCDA6 !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;constructor<span style="color:#F4A338 !important">()</span> <span style="color:#BDCDA6 !important">public</span><span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;storedData <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#FFF !important">;</span>
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> getResult<span style="color:#F4A338 !important">()</span> <span style="color:#BDCDA6 !important">public view</span> returns<span style="color:#F4A338 !important">(</span>string memory<span style="color:#F4A338 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> a <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">1</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> b <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">2</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> result <span style="color:#FFF !important">=</span> a <span style="color:#FFF !important">+</span> b<span style="color:#BDCDA6 !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">return</span> integerToString<span style="color:#F4A338 !important">(</span>result<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> integerToString<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span> _i<span style="color:#F4A338 !important">)</span> <span style="color:#BDCDA6 !important">internal</span> pure
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;returns <span style="color:#F4A338 !important">(</span>string memory<span style="color:#F4A338 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">if</span> <span style="color:#F4A338 !important">(</span>_i <span style="color:#FFF !important">==</span> <span style="color:#BDCDA6 !important">0</span><span style="color:#F4A338 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">return</span> <span style="color:#F4A338 !important">"</span><span style="color:#BDCDA6 !important">0</span><span style="color:#F4A338 !important">"</span><span style="color:#BDCDA6 !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> j <span style="color:#FFF !important">=</span> _i<span style="color:#BDCDA6 !important">;</span>
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> len<span style="color:#BDCDA6 !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">while</span> <span style="color:#F4A338 !important">(</span>true<span style="color:#F4A338 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;len++<span style="color:#BDCDA6 !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;j <span style="color:#FFF !important">/=</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#BDCDA6 !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">if</span><span style="color:#F4A338 !important">(</span>j<span style="color:#FFF !important">==</span><span style="color:#BDCDA6 !important">0</span><span style="color:#F4A338 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break<span style="color:#BDCDA6 !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">bytes</span> memory bstr <span style="color:#FFF !important">=</span> <span style="color:#5573C6 !important">new</span> <span style="color:#BDCDA6 !important">bytes</span><span style="color:#F4A338 !important">(</span>len<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> k <span style="color:#FFF !important">=</span> len <span style="color:#FFF !important">-</span> <span style="color:#BDCDA6 !important">1</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">while</span> <span style="color:#F4A338 !important">(</span>_i <span style="color:#FFF !important">!=</span> <span style="color:#BDCDA6 !important">0</span><span style="color:#F4A338 !important">)</span> <span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bstr<span style="color:#F4A338 !important">[</span>k<span style="color:#FFF !important">--</span><span style="color:#F4A338 !important">]</span> <span style="color:#FFF !important">=</span> byte<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint8</span><span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">48</span> <span style="color:#FFF !important">+</span> _i <span style="color:#FFF !important">%</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">))</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_i <span style="color:#FFF !important">/=</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">return</span> string<span style="color:#F4A338 !important">(</span>bstr<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> <span style="color:#9D76B7 !important">&#125;</span>
         
-
     .row.justify-content-center
       .col-lg-10(data-aos="flip-up")
         .BGR08.p-3
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-4.col-sm-3.col-lg-2.px-5
               img(src="@/assets/curso/temas/img04.svg")
             .col
               .row.justify-content-between.align-items-center
@@ -669,17 +665,17 @@
         .BGB03.p-2(data-aos="fade-right")
           .h5.text-center.mb-0 Ejemplo de definición y uso de una función en #[em solidity]
         .BG06.p-4.mb-4(data-aos="fade-right")
-          p.text-white.mb-2 pragma solidity ^0.5.0;
-          p.text-white.mb-2 contract Test {	
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function sumaNumeros(uint A, uint B) public view returns(uint){
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint result = (A + B);
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result;
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;}   
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;uint numeroUno = 5;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;uint numeroDos = 3;
-          p.text-white.mb-5 &nbsp;&nbsp;&nbsp;&nbsp;uint suma = 0;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;suma = sumaNumeros(numeroUno, numeroDos);
-          p.text-white.mb-2 }
+          p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
+            <br> contract <span style="color:#5573C6 !important">Test</span> <span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> sumaNumeros<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span> A<span style="color:#FFF !important">,</span> <span style="color:#BDCDA6 !important">uint</span> B<span style="color:#F4A338 !important">)</span> <span style="color:#BDCDA6 !important">public view</span> returns<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> result <span style="color:#FFF !important">=</span> <span style="color:#F4A338 !important">(</span>A <span style="color:#FFF !important">+</span> B<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">return</span> result<span style="color:#FFF !important">;</span>
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>   
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> numeroUno <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">5</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> numeroDos <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">3</span><span style="color:#FFF !important">;</span>
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> suma <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">0</span><span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;suma <span style="color:#FFF !important">=</span> sumaNumeros<span style="color:#F4A338 !important">(</span>numeroUno<span style="color:#FFF !important">,</span> numeroDos<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+            <br> <span style="color:#9D76B7 !important">&#125;</span>
     
     p.mb-5 La devolución de datos en una función es opcional, es decir no es necesario implementarlo si no se requiere, además #[em Solidity] permite crear funciones que retornen más de un valor, aunque esto debe de estar declarado en la función inicial.
 
@@ -688,15 +684,15 @@
         .BGB03.p-2(data-aos="fade-right")
           .h5.text-center.mb-0 Ejemplo de definición y uso de una función que retorna 2 valores en #[em solidity]
         .BG06.p-4.mb-4(data-aos="fade-right")
-          p.text-white.mb-2 pragma solidity ^0.5.0;
-          p.text-white.mb-2 contract Test {
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;function operaciones () public view returns(uint product, uint sum){
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint a = 1;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uint b = 2;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;product = a * b;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum = a + b;
-          p.text-white.mb-2 &nbsp;&nbsp;&nbsp;&nbsp;}
-          p.text-white.mb-2 }
+          p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
+            <br> contract <span style="color:#5573C6 !important">Test</span> <span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;function operaciones <span style="color:#F4A338 !important">()</span> <span style="color:#BDCDA6 !important">public view</span> returns<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span> product, <span style="color:#BDCDA6 !important">uint</span> sum<span style="color:#F4A338 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> a <span style="color:#FFF !important">=</span> 1<span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> b <span style="color:#FFF !important">=</span> 2<span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;product <span style="color:#FFF !important">=</span> a <span style="color:#FFF !important">*</span> b<span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum <span style="color:#FFF !important">=</span> a <span style="color:#FFF !important">+</span> b<span style="color:#FFF !important">;</span>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
+            <br> <span style="color:#9D76B7 !important">&#125;</span>
     
     p Es así como se puede implementar una estructura modular de operaciones dentro del contrato inteligente que permita optimizar el código y aprovechar los recursos generados.
     
@@ -704,7 +700,7 @@
       .col-lg-10(data-aos="flip-up")
         .BGR08.p-3
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-4.col-sm-3.col-lg-2.px-5
               img(src="@/assets/curso/temas/img04.svg")
             .col
               .row.justify-content-between.align-items-center
