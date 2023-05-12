@@ -156,7 +156,7 @@
               | <a style="font-weight: 900">Error on Transaction Failure</a>: presenta mensajes de error cuando una transacción no puede llevarse a cabo.
               
           p Tal como se presenta en la siguiente figura 11.
-        .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+        .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.p-2.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema2/img12.png")
     
     .row.justify-content-center.mb-5
@@ -285,7 +285,7 @@
           h5 Figura 16
           span Remix #[em Ethereum] IDE
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema2/img22.jpg")
+          img(src="@/assets/curso/tema2/img24.jpg")
           figcaption.text-center Nota. <a style="font-weight: 400">Adaptado de </a><a style="color: #8628A5" href="https://remix.ethereum.org" target="_blank">Remix - Ethereum IDE</a>
 
     p Este IDE web, presenta una interfaz general de compilador, un explorador de archivos de cada proyecto y un área de trabajo en donde se puede codificar los proyectos, es muy fácil de usar e intuitivo, además permite crear cuentas con recursos de prueba, necesarios para el desarrollo.

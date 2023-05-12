@@ -69,25 +69,25 @@
                 td(style="background-color: #F6FEFF") Se procesan en cuestión de minutos.
                 td(style="background-color: #F6FEFF") Puede demorar entre 1 y 3 días el proceso.
               tr
-                th Asignación
-                td Las asignaciones se realizan de manera automática.
-                td Las asignaciones se realizan de forma manual, lo cual puede llevar a equivocaciones.
+                th(style="background-color: #FFF") Asignación
+                td(style="background-color: #FFF") Las asignaciones se realizan de manera automática.
+                td(style="background-color: #FFF") Las asignaciones se realizan de forma manual, lo cual puede llevar a equivocaciones.
               tr
                 th(style="background-color: #F6FEFF") Fideicomiso
                 td(style="background-color: #F6FEFF") Incorporar #[em blockchain] para validar que se cumpla la voluntad del fideicomitente y la autoridad competente, no es absolutamente necesario.
                 td(style="background-color: #F6FEFF") La seguridad pactada para proteger el cumplimiento de acciones establecidas en el contrato y que se denomina fideicomiso es necesario.
               tr
-                th Costos
-                td Se realiza por una fracción del costo de un contrato tradicional.
-                td Los costos varían de acuerdo con el tipo de contrato, sin embargo, es un rubro a considerar siempre que se pacte un contrato tradicional.
+                th(style="background-color: #FFF") Costos
+                td(style="background-color: #FFF") Se realiza por una fracción del costo de un contrato tradicional.
+                td(style="background-color: #FFF") Los costos varían de acuerdo con el tipo de contrato, sin embargo, es un rubro a considerar siempre que se pacte un contrato tradicional.
               tr
                 th(style="background-color: #F6FEFF") Firmas
                 td(style="background-color: #F6FEFF") Las firmas se realizan de manera digital, por lo que el pacto se puede hacer entre personas que no estén presentes físicamente en un mismo lugar.
                 td(style="background-color: #F6FEFF") Es requisito que las personas interesadas, estén presentes para llevar a cabo el registro de firmas ante notario público.
               tr
-                th Soporte legal
-                td No requiere de acompañamiento legal, puede tramitarse directamente por personas naturales.
-                td Requiere el acompañamiento de un abogado, bien sea al redactar el contrato, o al llevarlo a registro.
+                th(style="background-color: #FFF") Soporte legal
+                td(style="background-color: #FFF") No requiere de acompañamiento legal, puede tramitarse directamente por personas naturales.
+                td(style="background-color: #FFF") Requiere el acompañamiento de un abogado, bien sea al redactar el contrato, o al llevarlo a registro.
 
     .mb-4
       .d-flex.flex-wrap.align-items-center(data-aos="fade-right")

@@ -105,44 +105,44 @@
                     th(style="background-color: #DEFAFD; width: 62.5%; font-size: 18px").text-center Devuelve
                 tbody
                   tr
-                    th Blochash (uint blockNumber) returns (bytes 32)
-                    td Hash del bloque dado: solo funciona para los bloques más recientes, excluyendo los actuales,
+                    th(style="background-color: #FFF") Blochash (uint blockNumber) returns (bytes 32)
+                    td(style="background-color: #FFF") Hash del bloque dado: solo funciona para los bloques más recientes, excluyendo los actuales,
                   tr
                     th(style="background-color: #F6FEFF") block.coinbase (address payable)
                     td(style="background-color: #F6FEFF") Dirección actual del minero de bloques
                   tr
-                    th block. difficulty (uint)
-                    td Dificultad del bloque actual
+                    th(style="background-color: #FFF") block. difficulty (uint)
+                    td(style="background-color: #FFF") Dificultad del bloque actual
                   tr
                     th(style="background-color: #F6FEFF") block.gaslimit (uint)
                     td(style="background-color: #F6FEFF") Límite de gas del bloque de corriente
                   tr
-                    th block.number (uint)
-                    td Número de bloque actual
+                    th(style="background-color: #FFF") block.number (uint)
+                    td(style="background-color: #FFF") Número de bloque actual
                   tr
                     th(style="background-color: #F6FEFF") block.timestamp (uint)
                     td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual como segundos desde la época de unix
                   tr
-                    th gasleft() returns (uint256)
-                    td Gas restante
+                    th(style="background-color: #FFF") gasleft() returns (uint256)
+                    td(style="background-color: #FFF") Gas restante
                   tr
                     th(style="background-color: #F6FEFF") msg.data (bytes calldata)
                     td(style="background-color: #F6FEFF") Datos de llamada completos
                   tr
-                    th msg.sender (address payable)
-                    td Remitente del mensaje (persona que llama actualmente)
+                    th(style="background-color: #FFF") msg.sender (address payable)
+                    td(style="background-color: #FFF") Remitente del mensaje (persona que llama actualmente)
                   tr
                     th(style="background-color: #F6FEFF") msg.sig (bytes4)
                     td(style="background-color: #F6FEFF") Primeros cuatro bytes de los datos de llamada (identificador de función)
                   tr
-                    th msg.value (uint)
-                    td Número de wei enviados con el mensaje
+                    th(style="background-color: #FFF") msg.value (uint)
+                    td(style="background-color: #FFF") Número de wei enviados con el mensaje
                   tr
                     th(style="background-color: #F6FEFF") now (uint)
                     td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual
                   tr
-                    th tx.gasprice (uint)
-                    td Precio del gas de la transacción
+                    th(style="background-color: #FFF") tx.gasprice (uint)
+                    td(style="background-color: #FFF") Precio del gas de la transacción
                   tr
                     th(style="background-color: #F6FEFF") tx.origin (address payable)
                     td(style="background-color: #F6FEFF") Remitente de la transacción
