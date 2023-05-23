@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-5 Los contratos inteligentes ofrecen funcionalidades de intercambio de información a través de redes de #[em blockchain], estos contratos permiten extender las funcionalidades tanto de flexibilidad y seguridad de la información dado que se ejecutan bajo protocolos seguros propios de estas redes de #[em blockchain], heredando las bondades de confiabilidad, disponibilidad y autenticidad de la misma. Se debe observar la introducción al componente formativo en el siguiente video.
+    p.mb-5 Los contratos inteligentes ofrecen funcionalidades de intercambio de información a través de redes de #[em blockchain], estos contratos permiten extender las funcionalidades tanto de flexibilidad y seguridad de la información dado que se ejecutan bajo protocolos seguros propios de estas redes de #[em blockchain], heredando las bondades de confiabilidad, disponibilidad y autenticidad de la misma. A continuación se presenta el video de introducción al componente formativo.
 
     figure.mb-4(data-aos="zoom-in")
       .video

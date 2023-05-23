@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.BGIMG04.p-4.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-0 Los contratos inteligentes van a funcionar sobre redes de #[em blockchain] como las de #[em Ethereum], para todos los casos, cualquier consulta, envío de información o transacción va a requerir del uso de la red y de los gas o comisiones que ello conlleva, de acuerdo con esto, desarrollar un contrato inteligente necesitaría muchos recursos dada las pruebas y validaciones que se tienen que hacer antes de desplegar en una red oficial o de producción, para lograrlo, anteriormente se había presentado e instalado la plataforma de desarrollo denominada #[em Ganache], sobre la cual se puede  hacer las pruebas correspondientes antes de realizar su despliegue en una red oficial.
+        p.mb-0 Los contratos inteligentes van a funcionar sobre redes de #[em blockchain] como las de Ethereum, para todos los casos, cualquier consulta, envío de información o transacción va a requerir del uso de la red y de los gas o comisiones que ello conlleva, de acuerdo con esto, desarrollar un contrato inteligente necesitaría muchos recursos dada las pruebas y validaciones que se tienen que hacer antes de desplegar en una red oficial o de producción, para lograrlo, anteriormente se había presentado e instalado la plataforma de desarrollo denominada Ganache, sobre la cual se puede  hacer las pruebas correspondientes antes de realizar su despliegue en una red oficial.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img01.png")
     
@@ -55,22 +55,22 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Entorno de prueba y desarrollo
     
-    p.mb-5 Para realizar la programación y teste del contrato inteligente en una red de pruebas, se puede hacer uso de la plataforma #[em Ganache] o también del IDE Remix de #[em Ethereum], para lo cual se debe dirigir a la URL: <a style="color: #8628A5" href="https://remix.ethereum.org" target="_blank">https://remix.ethereum.org</a>, en donde se podrá crear un #[em workspace] o espacio de trabajo para cada proyecto, por ejemplo, en la siguiente figura 20 se muestra cómo se crea un #[em workspace] denominado “SENA”.
+    p.mb-5 Para realizar la programación y teste del contrato inteligente en una red de pruebas, se puede hacer uso de la plataforma Ganache o también del IDE Remix de Ethereum, para lo cual se debe dirigir a la URL: <a style="color: #8628A5" href="https://remix.ethereum.org" target="_blank">https://remix.ethereum.org</a>, en donde se podrá crear un #[em workspace] o espacio de trabajo para cada proyecto, por ejemplo, en la siguiente figura se muestra cómo se crea un #[em workspace] denominado “SENA”.
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 20
-          span Creación de #[em  Workspace] en Remix #[em Ethereum] IDE
+          span Creación de Workspace en Remix Ethereum IDE
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema4/img02.jpg")
           figcaption.text-center Nota. <a style="font-weight: 400">Tomado de </a><a style="color: #8628A5" href="https://remix.ethereum.org" target="_blank">Remix - Ethereum IDE</a>
     
-    p.mb-5 Al crear este #[em workspace] genera una estructura de archivos base como se muestra en la siguiente figura 21, pero no es necesario seguirla o utilizarla:
+    p.mb-5 Al crear este #[em workspace] genera una estructura de archivos base como se muestra en la siguiente figura, pero no es necesario seguirla o utilizarla:
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 21
-          span Estructura de archivos de un #[em Workspace]
+          span Estructura de archivos de un Workspace
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema4/img03.jpg")
           figcaption.text-center Nota. <a style="font-weight: 400">Tomado de </a><a style="color: #8628A5" href="https://remix.ethereum.org" target="_blank">Remix - Ethereum IDE</a>
@@ -135,13 +135,13 @@
         .h5.texto-secundario.mb-2 2. #[em Account]/ Cuenta
         p.mb-0 Este entorno nos proporciona una serie de cuentas, con recursos disponibles, pero este recurso será únicamente de prueba y no será útil en una red de #[em blockchain] real, podemos escoger cualquiera de las cuentas que cuente con saldo.
       .BGR03.p-3(x="76%" y="19.8%" numero="3")
-        .h5.texto-secundario.mb-2 3. #[em Contract]/ Contrato
+        .h5.texto-secundario.mb-2 3. #[em Contract] / Contrato
         p.mb-0 En esta opción vamos a seleccionar el archivo del contrato inteligente que acabamos de crear, para proceder con la compilación.
       .BGR03.p-3(x="76%" y="69.1%" numero="4")
         .h5.texto-secundario.mb-2 4. Inicialización de variables
         p.mb-0 Para este caso, vamos a inicializar la variable que utilizamos en cero “0”.
     
-    p.mb-5 Finalmente se puede hacer clic en el botón “#[em Deploy]” con el cual se desplega el contrato seleccionado, y será visible dentro de la red (ver figura 25).
+    p.mb-5 Finalmente se puede hacer clic en el botón Deploy con el cual se desplega el contrato seleccionado, y será visible dentro de la red (ver figura 25).
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -151,7 +151,7 @@
           img(src="@/assets/curso/tema4/img09.jpg")
           figcaption.text-center Nota. <a style="font-weight: 400">Tomado de </a><a style="color: #8628A5" href="https://remix.ethereum.org" target="_blank">Remix - Ethereum IDE</a>
     
-    p En la siguiente figura 26 se visualiza el contrato inteligente desplegado, con una dirección visible a través de la red, y con los métodos codificados en el ejemplo.
+    p En la siguiente figura se visualiza el contrato inteligente desplegado, con una dirección visible a través de la red, y con los métodos codificados en el ejemplo.
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -169,7 +169,7 @@
     
     .row.justify-content-center.align-items-center
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Así como se realiza el despliegue de un contrato inteligente en una red de pruebas, también se puede hacer uso de una de producción, estas redes trabajan con la de #[em blockchain] e interactúan con otros contratos inteligentes y #[em DApps] para ofrecer y consumir información, obviamente esto conlleva a que cada transacción haga uso de sus redes y requerirá de una comisión o Gas para poder llevar a cabo la transacción.
+        p Así como se realiza el despliegue de un contrato inteligente en una red de pruebas, también se puede hacer uso de una de producción, estas redes trabajan con la de #[em blockchain] e interactúan con otros contratos inteligentes y DApps para ofrecer y consumir información, obviamente esto conlleva a que cada transacción haga uso de sus redes y requerirá de una comisión o Gas para poder llevar a cabo la transacción.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Es importante tener presente que la tecnología #[em blockchain] es una tecnología en desarrollo y día a día están surgiendo cambios que pueden llevar a que los procedimientos cambien o los gastos por comisiones cambien su costo, por lo que al actualizarse esta tecnología y explorar las nuevas funcionalidades estas soluciones se pueden implementar en los entornos empresariales.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")

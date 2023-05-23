@@ -5,15 +5,15 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Principios básicos de #[em Solidity]
+      h1 Principios básicos de Solidity
     
     .row.justify-content-center.align-items-center.BGIMG04.p-4.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-0 #[em Solidity] es un lenguaje de alto nivel, orientado a contratos y de tipo estático para implementar contratos inteligentes en la plataforma #[em Ethereum], con el cual pueden generarse los contratos inteligentes bajo la red de #[em Ethereum], Su sintaxis es muy similar a la de lenguajes muy conocidos como C++ o #[em Javascript].
+        p.mb-0 Solidity es un lenguaje de alto nivel, orientado a contratos y de tipo estático para implementar contratos inteligentes en la plataforma Ethereum, con el cual pueden generarse los contratos inteligentes bajo la red de Ethereum, Su sintaxis es muy similar a la de lenguajes muy conocidos como C++ o Javascript.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img01.png")
     
-    .h5.text-center.mb-5 Las siguientes son algunas características del lenguaje de programación #[em Solidity]:
+    .h5.text-center.mb-5 Las siguientes son algunas características del lenguaje de programación Solidity:
 
     ImagenInfografica.color-acento-botones.mb-4(data-aos="fade-up")
       template(v-slot:imagen)
@@ -22,16 +22,16 @@
 
       .BGR03.p-3(x="25%" y="12%" numero="1")
         .h5.texto-secundario.mb-2 1. Lenguaje
-        p.mb-0 #[em Solidity] es un tipo de lenguaje orientado a objetos (OO) como C++ y C#.
+        p.mb-0 Solidity es un tipo de lenguaje orientado a objetos (OO) como C++ y C#.
       .BGR03.p-3(x="29%" y="31%" numero="2")
         .h5.texto-secundario.mb-2 2. Diseño y desarrollo de aplicaciones
-        p.mb-0 Fue diseñado específicamente para desarrollar aplicaciones para la red #[em Ethereum]. Por lo que sólo corre en la #[em blockchain Ethereum] o derivadas compatibles.
+        p.mb-0 Fue diseñado específicamente para desarrollar aplicaciones para la red Ethereum. Por lo que sólo corre en la #[em blockchain] Ethereum o derivadas compatibles.
       .BGR03.p-3(x="33%" y="50%" numero="3")
         .h5.texto-secundario.mb-2 3. Código fuente
         p.mb-0 Una ventaja que posee este lenguaje es que el código fuente de los programas que son realizados con el mismo puede ser accedido públicamente desde la #[em blockchain]. Incluso estando en #[em bytecode], es posible descompilarlo y obtener una muestra bastante clara del código fuente original.
       .BGR03.p-3(x="29%" y="69%" numero="4")
         .h5.texto-secundario.mb-2 4. Herencia y elementos complejos
-        p.mb-0 #[em Solidity] soporta la herencia y la herencia múltiple, dotándolo de una gran flexibilidad a la hora de programar elementos complejos.
+        p.mb-0 Solidity soporta la herencia y la herencia múltiple, dotándolo de una gran flexibilidad a la hora de programar elementos complejos.
       .BGR03.p-3(x="25%" y="88%" numero="5")
         .h5.texto-secundario.mb-2 5. Bibliotecas
         p.mb-0 Este lenguaje también proporciona una serie de bibliotecas muy útiles que facilitan la programación de los contratos inteligentes, haciendo que el código sea reutilizable y más sencillo de mantener.
@@ -40,17 +40,17 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Expresiones
     
-    p.mb-5 Los contratos en #[em Solidity] son semejantes a las clases de lenguajes orientados a objetos. Pueden contener declaraciones del tipo de variables de estado, funciones, modificadores de función, además de eventos, structs y enums. Algunas de las sintaxis más utilizadas en estos contratos son (ver figura 17):
+    p.mb-5 Los contratos en Solidity son semejantes a las clases de lenguajes orientados a objetos. Pueden contener declaraciones del tipo de variables de estado, funciones, modificadores de función, además de eventos, #[em structs] y #[em enums]. Algunas de las sintaxis más utilizadas en estos contratos son (ver figura 17):
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 17
-          span Expresiones más usadas en #[em Solidity]
+          span Expresiones más usadas en Solidity
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema3/img03.svg")
     
-    p A continuación, se encontrará una explicación detallada de cada una de estas expresiones, se invita a revisar el siguiente recurso educativo, en donde se explica lo correspondiente a las Variables:
+    p A continuación, se encontrará una explicación detallada de cada una de estas expresiones, se invita a revisar el siguiente recurso educativo, en donde se explica lo correspondiente a las variables:
 
     .BG11.p-4.mb-5(data-aos="fade-right")
       SlyderE
@@ -62,7 +62,7 @@
             .BGB03.p-2
               .h5.text-center.mb-0 Definición y uso de variables de estado
             .BG06.p-4
-              p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
+              p.texto-celeste.font-courier.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
                 <br> contract <span style="color:#5573C6 !important">SolidityTest</span> <span style="color:#9D76B7 !important">&#123;</span>
                 <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> storedData<span style="color:#FFF !important">;</span>      <span style="color:#678F4E !important">//Definición variable de estado</span>
                 <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">constructor</span><span style="color:#9D76B7 !important">()</span> <span style="color:#84C0E2 !important">public</span> <span style="color:#9D76B7 !important">&#123;</span>
@@ -78,7 +78,7 @@
             .BGB03.p-2
               .h5.text-center.mb-0 Definición y uso de variables locales
             .BG06.p-4
-              p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
+              p.texto-celeste.font-courier.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
                 <br> contract <span style="color:#5573C6 !important">SolidityTest</span> <span style="color:#9D76B7 !important">&#123;</span>
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> storedData; <span style="color:#678F4E !important">//Definición variable de estado</span>
                 <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">constructor</span><span style="color:#9D76B7 !important">()</span> <span style="color:#84C0E2 !important">public</span> <span style="color:#9D76B7 !important">&#123;</span>
@@ -106,7 +106,7 @@
                 tbody
                   tr
                     th(style="background-color: #FFF") Blochash (uint blockNumber) returns (bytes 32)
-                    td(style="background-color: #FFF") Hash del bloque dado: solo funciona para los bloques más recientes, excluyendo los actuales,
+                    td(style="background-color: #FFF") #[em Hash] del bloque dado: solo funciona para los bloques más recientes, excluyendo los actuales,
                   tr
                     th(style="background-color: #F6FEFF") block.coinbase (address payable)
                     td(style="background-color: #F6FEFF") Dirección actual del minero de bloques
@@ -121,7 +121,7 @@
                     td(style="background-color: #FFF") Número de bloque actual
                   tr
                     th(style="background-color: #F6FEFF") block.timestamp (uint)
-                    td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual como segundos desde la época de unix
+                    td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual como segundos desde la época de Unix
                   tr
                     th(style="background-color: #FFF") gasleft() returns (uint256)
                     td(style="background-color: #FFF") Gas restante
@@ -133,7 +133,7 @@
                     td(style="background-color: #FFF") Remitente del mensaje (persona que llama actualmente)
                   tr
                     th(style="background-color: #F6FEFF") msg.sig (bytes4)
-                    td(style="background-color: #F6FEFF") Primeros cuatro bytes de los datos de llamada (identificador de función)
+                    td(style="background-color: #F6FEFF") Primeros cuatro #[em bytes] de los datos de llamada (identificador de función)
                   tr
                     th(style="background-color: #FFF") msg.value (uint)
                     td(style="background-color: #FFF") Número de wei enviados con el mensaje
@@ -151,11 +151,11 @@
       .tarjeta-avatar-b__img
         img(src='@/assets/curso/tema3/img04.svg')
       .tarjeta.color-secundario.ps-5.p-4
-        .h5.ms-5 Como todo lenguaje de programación, presenta algunas recomendaciones en el momento de declarar variables, algunas de estas son:
+        .h5.ms-5 Como todo lenguaje de programación, Solidity presenta algunas recomendaciones en el momento de declarar variables, algunas de estas son:
         ul.lista-ul--color.ms-5
           li(style="margin-bottom: 2px;")
             i.fas.fa-cube(style="color: #FFD800")
-            | No utilizar ninguna de las palabras clave reservadas de #[em Solidity] como nombre de variable.
+            | No utilizar ninguna de las palabras clave reservadas de Solidity como nombre de variable.
           li(style="margin-bottom: 2px;")
             i.fas.fa-cube(style="color: #FFD800")
             | Los nombres de las variables de solidez no deben comenzar con un numeral (0-9). Deben comenzar con una letra o un carácter de subrayado. Por ejemplo, 123test es un nombre de variable no válido, pero _123test es válido.
@@ -180,7 +180,7 @@
               span
                 i.fas.fa-caret-up.fa-2x.text-white.me-3
                 i.fas.fa-caret-down.fa-2x.text-white.me-3
-              h4.mb-0.text-white Public
+              h4.mb-0.text-white #[em Public]
             p.text-white.mb-0 Permite acceder a las variables de estado público tanto internamente como a través de mensajes. Para una variable de estado público.
       .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-up")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
@@ -191,7 +191,7 @@
               span
                 i.fas.fa-caret-up.fa-2x.text-white.me-3
                 i.fas.fa-caret-down.fa-2x.text-white.me-3
-              h4.mb-0.text-white Internal
+              h4.mb-0.text-white #[em Internal]
             p.text-white.mb-0 Solo permite el acceso a las variables de estado interno desde el contrato actual o el contrato derivado de él sin usar esto.
       .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
@@ -202,7 +202,7 @@
               span
                 i.fas.fa-caret-up.fa-2x.text-white.me-3
                 i.fas.fa-caret-down.fa-2x.text-white.me-3
-              h4.mb-0.text-white Private
+              h4.mb-0.text-white #[em Private]
             p.text-white.mb-0 Estas variables sólo pueden ser accedidas internamente desde el contrato actual que están definidas no en el contrato derivado del mismo.
 
     .h5.text-center.mb-5 La siguiente imagen da claridad frente a la definición y uso de alcance de las variables, establecido anteriormente (ver figura 18):
@@ -217,7 +217,7 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Definición y uso de alcance de las variables
           .BG06.p-4(data-aos="fade-right")
-            p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
+            p.texto-celeste.font-courier.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span>;
               <br> contract <span style="color:#5573C6 !important">C</span> <span style="color:#9D76B7 !important">&#123;</span>
               <br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">uint</span> <span style="color:#BDCDA6 !important">public</span> data <span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">30</span><span style="color:#FFF !important">;</span>
               <br><br> &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#BDCDA6 !important">uint</span> internal iData<span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#FFF !important">;</span>
@@ -245,12 +245,12 @@
               <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
               <br> <span style="color:#9D76B7 !important">&#125;</span>
     
-    p Otra expresión a tener en cuenta son los #[strong Operadores]. Los operadores como su nombre lo indica, permiten realizar operaciones y asignaciones de valor entre variables, por ejemplo, en la siguiente expresión 5 + 7 es igual a 12. Aquí 5 y 7 se llaman operandos y ‘+’ se llama el operador. 
-    p.mb-5 #[em Solidity] soporta diferentes tipos de operadores que se explican a continuación:
+    p Otra expresión a tener en cuenta son los Operadores. Los operadores como su nombre lo indica, permiten realizar operaciones y asignaciones de valor entre variables, por ejemplo, en la siguiente expresión 5 + 7 es igual a 12. Aquí 5 y 7 se llaman operandos y ‘+’ se llama el operador. 
+    p.mb-5 Solidity soporta diferentes tipos de operadores que se explican a continuación:
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="BGR04" data-aos="zoom-in")
       .row.justify-content-center(titulo="Operadores aritméticos")
-        p #[em Solidity] admite los siguientes operadores aritméticos, Supongamos que la variable A tiene 10 y la variable B tiene 20, entonces revisemos la siguiente tabla de operadores aritméticos para ver cómo se comportan cada uno de ellos.
+        p Solidity admite los siguientes operadores aritméticos, Supongamos que la variable A tiene 10 y la variable B tiene 20, entonces revisemos la siguiente tabla de operadores aritméticos para ver cómo se comportan cada uno de ellos.
         .tabla-b.color-acento-contenido.mb-4
           table
             thead
@@ -289,7 +289,7 @@
                 td(style="background-color: #FFFFFF;") (A--) = 9
 
       .row.justify-content-center(titulo="Operadores de comparación")
-        p #[em Solidity] admite los siguientes operadores de comparación, Supongamos que la variable A contiene 10 y la variable B contiene 20, entonces, entonces revisemos la siguiente tabla de operadores de comparación para ver cómo se comportan cada uno de ellos.
+        p Solidity admite los siguientes operadores de comparación, Supongamos que la variable A contiene 10 y la variable B contiene 20, entonces, entonces revisemos la siguiente tabla de operadores de comparación para ver cómo se comportan cada uno de ellos.
         .tabla-b.color-acento-contenido.mb-4
           table
             thead
@@ -319,11 +319,11 @@
                 td(style="background-color: #FFFFFF;") Comprueba si el valor del operando izquierdo es mayor o igual que el valor del operando derecho, en caso afirmativo, entonces la condición se convierte en verdadera.
                 td(style="background-color: #FFFFFF;") (A &gt;=&lt;= B) no es verdadero
               tr
-                th(style="background-color: #F6FEFF;") &lt;= Menor o Igual que
+                th(style="background-color: #F6FEFF;") &lt;= Menor o igual que
                 td(style="background-color: #F6FEFF;") Comprueba si el valor del operando izquierdo es menor o igual que el valor del operando derecho, en caso afirmativo, entonces la condición se convierte en verdadera.
                 td(style="background-color: #F6FEFF;") (A &lt;= B) es verdadero
       .row.justify-content-center(titulo="Operadores de lógicos")
-        p #[em Solidity] admite los siguientes operadores lógicos, Supongamos que la variable A contiene 10 y la variable B contiene 20, entonces, entonces revisemos la siguiente tabla de operadores lógicos para ver cómo se comportan cada uno de ellos.
+        p Solidity admite los siguientes operadores lógicos. Supongamos que la variable A contiene 10 y la variable B contiene 20, entonces, entonces revisemos la siguiente tabla de operadores lógicos para ver cómo se comportan cada uno de ellos.
         .tabla-b.color-acento-contenido.mb-4
           table
             thead
@@ -345,7 +345,7 @@
                 td(style="background-color: #FFFFFF;") Invierte el estado lógico de su operando. Si una condición es true, el operador Lógico NOT la hará false.
                 td(style="background-color: #FFFFFF;") !(A &gt; B) no es verdadero
       .row.justify-content-center(titulo="Operadores <em>bitwise</em>")
-        p #[em Solidity] admite los siguientes operadores #[em bitwise], Supongamos que la variable A contiene 2 y la variable B contiene 3, entonces, entonces revisemos la siguiente tabla de operadores #[em bitwise] para ver cómo se comportan cada uno de ellos.
+        p Solidity admite los siguientes operadores #[em bitwise], Supongamos que la variable A contiene 2 y la variable B contiene 3, entonces, entonces revisemos la siguiente tabla de operadores #[em bitwise] para ver cómo se comportan cada uno de ellos.
         .tabla-b.color-acento-contenido.mb-4
           table
             thead
@@ -384,9 +384,10 @@
                 td(style="background-color: #FFFFFF;") (A &gt;&gt;&gt; 1) = 1
 
       .row.justify-content-center(titulo="Operadores de asignación")
-        p #[em Solidity] admite los siguientes operadores de asignación, revisemos la siguiente tabla de operadores #[em bitwise] para ver cómo se comportan cada uno de ellos.
+        p Solidity admite los siguientes operadores de asignación, revisemos la siguiente tabla de operadores #[em bitwise] para ver cómo se comportan cada uno de ellos.
         .tabla-b.color-acento-contenido.mb-4
           table
+            caption.text-center Nota. <a style="font-weight: 400">La misma lógica se aplica a los operadores bitwise, por lo que se volverán como &lt;&lt;=, &gt;&gt;=, &gt;&gt;=, &amp;=, |= y ^=</a>
             thead
               tr
                 th(style="background-color: #DEFAFD; width: 20%; font-size: 18px").text-center Operador
@@ -427,10 +428,10 @@
                 th(style="background-color: #DEFAFD; width: 60%; font-size: 18px").text-center Descripción y ejemplo
             tbody
               tr
-                th(style="background-color: #FFFFFF;") ? : (Condicional )
+                th(style="background-color: #FFFFFF;") ? : (Condicional)
                 td(style="background-color: #FFFFFF;") ¿Si la condición es verdadera? Entonces valor X : De lo contrario valor Y
 
-    p.mb-5 En relación a los #[strong Tipos de valor], el lenguaje de programación ofrece una amplia gama de tipos de datos con los cuales se almacena información temporalmente mientras se encuentra en ejecución un contrato inteligente, a continuación, se puede ver la tabla 2 de tipos de datos aceptados.
+    p.mb-5 En relación a los #[strong tipos de valor], el lenguaje de programación ofrece una amplia gama de tipos de datos con los cuales se almacena información temporalmente mientras se encuentra en ejecución un contrato inteligente, a continuación, se puede ver la tabla 2 de tipos de datos aceptados.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 2
@@ -447,8 +448,8 @@
         tbody
           tr
             th(style="background-color: #F6FEFF") Booleano
-            td(style="background-color: #F6FEFF") bool
-            td(style="background-color: #F6FEFF") verdadero/falso.
+            td(style="background-color: #F6FEFF") #[en bool]
+            td(style="background-color: #F6FEFF") Verdadero/falso.
           tr
             th(style="background-color: #FFFFFF") Entero
             td(style="background-color: #FFFFFF") int/uint
@@ -463,7 +464,7 @@
             td(style="background-color: #FFFFFF") Int sin firmar de 8 bits a 256 bits. uint256 es lo mismo que uint.
           tr
             th(style="background-color: #F6FEFF") Números de puntos fijos
-            td(style="background-color: #F6FEFF") fijo/no fijo
+            td(style="background-color: #F6FEFF") fijo/ no fijo
             td(style="background-color: #F6FEFF") Números de punto fijos firmados y sin firmar de diferentes tamaños.
           tr
             th(style="background-color: #FFFFFF") Números de puntos fijos
@@ -474,7 +475,7 @@
             td(style="background-color: #F6FEFF") ufixedMxN
             td(style="background-color: #F6FEFF") Número de punto fijo sin signo donde M representa el número de bits tomados por tipo y N representa los puntos decimales. M debe ser divisible por 8 y va de 8 a 256. N puede ser de 0 a 80. ufixed es lo mismo que ufixed128x18.
 
-    .h5.mb-5 Adicional, existe un tipo predefinido tipo #[em address], el cual permite almacenar una cadena de 20 bytes de longitud que representa una dirección de #[em Ethereum]
+    .h5.mb-5 Adicionalmente, existe un tipo predefinido tipo #[em address], el cual permite almacenar una cadena de 20 #[em bytes] de longitud que representa una dirección de Ethereum
     
     .BGM12.px-md-5.px-4.py-4.my-4
       .row.justify-content-center.mb-5
@@ -482,39 +483,39 @@
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Declaración y uso de una variable de tipo address
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.texto-celeste.mb-0 address x <span style="color:#FFF !important">=</span> 0x212;
+            p.texto-celeste.font-courier.mb-0 address x <span style="color:#FFF !important">=</span> 0x212;
               <br> address myAddress <span style="color:#FFF !important">=</span> <span style="color:#5573C6 !important">this</span><span style="color:#FFF !important">;</span>
               <br> <span style="color:#9D76B7 !important">if</span> <span style="color:#F4A338 !important">(</span>x<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">balance</span> <span style="color:#FFF !important">&lt;</span> <span style="color:#BDCDA6 !important">10</span> <span style="color:#9D76B7 !important">&amp;&amp;</span> myAddress<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">balance</span> <span style="color:#FFF !important">&gt;</span><span style="color:#FFF !important">=</span> <span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">)</span> x<span style="color:#FFF !important">.</span><span style="color:#BDCDA6 !important">transfer</span><span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
           .BG07.p-2
             p.text-center.mb-0 #[strong Nota]. SENA (2022).
     
-      p Por último se encuentra #[strong #[em Array]]; los arreglos al igual que en los demás lenguajes de programación, son estructuras de datos, que almacenan una colección de elementos del mismo tipo.
-      p.mb-5 Para la declaración de un array en #[em Solidity], se debe especificar el tamaño es decir la cantidad de elementos que contendrá y el tipo de dato, así:
+      p Por último se encuentra #[strong Array]; los arreglos al igual que en los demás lenguajes de programación, son estructuras de datos, que almacenan una colección de elementos del mismo tipo.
+      p.mb-5 Para la declaración de un #[em array] en Solidity, se debe especificar el tamaño es decir la cantidad de elementos que contendrá y el tipo de dato, así:
       .h5.text-center.texto-secundario.mb-5 type arrayName [ arraySize ];
-      p Por ejemplo, para declarar una matriz de 10 elementos denominada balance de tipo uint
+      p Por ejemplo, para declarar una matriz de 10 elementos denominada balance de tipo #[em uint].
       
       .row.justify-content-center.mb-5
         .col-lg-8
           .BGB03.p-2(data-aos="fade-right")
             .h5.text-center.mb-0 Declaración de un array de tipo uint de 10 posiciones
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.texto-celeste.mb-0 <span style="color:#BDCDA6 !important">uint</span> balance<span style="color:#F4A338 !important">[</span><span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">]</span><span style="color:#FFF !important">;</span>
+            p.texto-celeste.font-courier.mb-0 <span style="color:#BDCDA6 !important">uint</span> balance<span style="color:#F4A338 !important">[</span><span style="color:#BDCDA6 !important">10</span><span style="color:#F4A338 !important">]</span><span style="color:#FFF !important">;</span>
       
-      .h5.text-center.mb-5 Si se desea declarar una matriz de tamaño dinámico en #[em Solidity], se debe especificar el tipo de elementos de la siguiente manera:
+      .h5.text-center.mb-5 Si se desea declarar una matriz de tamaño dinámico en Solidity, se debe especificar el tipo de elementos de la siguiente manera:
       .row.justify-content-center.mb-5
         .col-lg-8
           .BGB03.p-2(data-aos="fade-right")
-            .h5.text-center.mb-0 Declaración de un array de tamaño dinámico
+            .h5.text-center.mb-0 Declaración de un #[em array] de tamaño dinámico
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.texto-celeste.mb-0 <span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">[ ]</span> memory a <span style="color:#FFF !important">=</span> <span style="color:#5573C6 !important">new</span> <span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">[ ](</span><span style="color:#BDCDA6 !important">7</span><span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
+            p.texto-celeste.font-courier.mb-0 <span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">[ ]</span> memory a <span style="color:#FFF !important">=</span> <span style="color:#5573C6 !important">new</span> <span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">[ ](</span><span style="color:#BDCDA6 !important">7</span><span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
       
       .h5.text-center.mb-5 Ahora bien, si se requiere acceder a una posición para leer o escribir un dato, se puede acceder invocando la posición que se desea trabajar, así:
       .row.justify-content-center.mb-5
         .col-lg-8
           .BGB03.p-2(data-aos="fade-right")
-            .h5.text-center.mb-0 Lectura de una posición de un array
+            .h5.text-center.mb-0 Lectura de una posición de un #[em array]
           .BG06.p-4.mb-4(data-aos="fade-right")
-            p.texto-celeste.mb-0 <span style="color:#BDCDA6 !important">uint</span> salary <span style="color:#FFF !important">=</span> balance<span style="color:#F4A338 !important">[</span><span style="color:#BDCDA6 !important">2</span><span style="color:#F4A338 !important">]</span><span style="color:#FFF !important">;</span>
+            p.texto-celeste.font-courier.mb-0 <span style="color:#BDCDA6 !important">uint</span> salary <span style="color:#FFF !important">=</span> balance<span style="color:#F4A338 !important">[</span><span style="color:#BDCDA6 !important">2</span><span style="color:#F4A338 !important">]</span><span style="color:#FFF !important">;</span>
     
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -528,9 +529,9 @@
           .row.justify-content-center
             .col-lg-10
               LineaTiempoD.color-secundario
-                p.text-small(numero="1" titulo="Instrucción if") Esta es la instrucción de control fundamental que permite al lenguaje de programación tomar decisiones y ejecutar instrucciones condicionalmente.
-                p.text-small(numero="2" titulo="If … else") La instrucción 'if... else' es la siguiente forma de controlar la instrucción de control y que permite al lenguaje de programación ejecutar instrucciones de una manera más controlada.
-                p.text-small(numero="3" titulo="If … else if… ") Esta declaración es una forma avanzada de si... de lo contrario, permite al lenguaje de programación tomar una decisión correcta a partir de varias condiciones.
+                p.text-small(numero="1" titulo="Instrucción <em>if</em>") Esta es la instrucción de control fundamental que permite al lenguaje de programación tomar decisiones y ejecutar instrucciones condicionalmente.
+                p.text-small(numero="2" titulo="<em>If… else</em>") La instrucción '<em>if... else</em>' es la siguiente forma de controlar la instrucción de control y que permite al lenguaje de programación ejecutar instrucciones de una manera más controlada.
+                p.text-small(numero="3" titulo="<em>If… else if…</em>") Esta declaración es una forma avanzada de si... de lo contrario, permite al lenguaje de programación tomar una decisión correcta a partir de varias condiciones.
         .col-lg-4.col-8(data-aos="fade-left")
           .titulo-sexto.color-acento-contenido
             h5 Figura 19
@@ -563,22 +564,22 @@
       .py-4.py-md-5(titulo="While" :icono="require('@/assets/curso/tema3/img11.svg')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
-            p.mb-0 Esta también es una estructura cíclica, que nos permite ejecutar sentencias de manera repetitiva sin necesidad de tener un valor inicial o final, esta estructura no depende de valores numéricos, sino de valores booleanos, es decir continúa con su ciclo mientras una condición sea verdadera, en caso contrario terminará, a continuación, vamos a ver el flujo de la estructura while.
+            p.mb-0 Esta también es una estructura cíclica, que nos permite ejecutar sentencias de manera repetitiva sin necesidad de tener un valor inicial o final, esta estructura no depende de valores numéricos, sino de valores booleanos, es decir continúa con su ciclo mientras una condición sea verdadera, en caso contrario terminará, a continuación, vamos a ver el flujo de la estructura While.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img12.svg")
       .py-4.py-md-5(titulo="Do" :icono="require('@/assets/curso/tema3/img13.svg')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
-            p El ciclo do... while trabaja de manera similar al ciclo while con la excepción que la comprobación de condición ocurre al final del bucle. Esto significa que el bucle siempre se ejecutará al menos una vez, incluso si la condición es falsa.
+            p El ciclo Do... while trabaja de manera similar al ciclo While con la excepción que la comprobación de condición ocurre al final del bucle. Esto significa que el bucle siempre se ejecutará al menos una vez, incluso si la condición es falsa.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img14.svg")
     
     .row.justify-content-center.mb-5
       .col-lg-8
         .BGB03.p-2(data-aos="fade-right")
-          .h5.text-center.mb-0 Uso de estructuras de control de #[em solidity] en un contrato inteligente
+          .h5.text-center.mb-0 Uso de estructuras de control de Solidity en un contrato inteligente
         .BG06.p-4.mb-4(data-aos="fade-right")
-          p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
+          p.texto-celeste.font-courier.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
             <br> contract <span style="color:#5573C6 !important">SolidityTest</span> <span style="color:#9D76B7 !important">&#123;</span>
             <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> storedData<span style="color:#BDCDA6 !important">;</span>
             <br> &nbsp;&nbsp;&nbsp;&nbsp;constructor<span style="color:#F4A338 !important">()</span> <span style="color:#BDCDA6 !important">public</span><span style="color:#9D76B7 !important">&#123;</span>
@@ -623,8 +624,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.text-white.mb-1 #[em Solidity]
-                  p.text-white.mb-0 Es así como las estructuras repetitivas, pueden ayudar a implementar controles, validaciones y establecer el flujo del proceso y de la información en la construcción de un contrato inteligente, para conocer más sobre la sintaxis del lenguaje el sitio oficial de la documentación de #[em solidity]:
+                  h3.text-white.mb-1 Solidity
+                  p.text-white.mb-0 Es así como las estructuras repetitivas, pueden ayudar a implementar controles, validaciones y establecer el flujo del proceso y de la información en la construcción de un contrato inteligente, para conocer más sobre la sintaxis del lenguaje el sitio oficial de la documentación de Solidity:
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://solidity-es.readthedocs.io/es/latest/index.html" target="_blank")
                     span(style="color: #000; font-weight: 400") Ir a sitio web
@@ -663,9 +664,9 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .BGB03.p-2(data-aos="fade-right")
-          .h5.text-center.mb-0 Ejemplo de definición y uso de una función en #[em solidity]
+          .h5.text-center.mb-0 Ejemplo de definición y uso de una función en Solidity
         .BG06.p-4.mb-4(data-aos="fade-right")
-          p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
+          p.texto-celeste.font-courier.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
             <br> contract <span style="color:#5573C6 !important">Test</span> <span style="color:#9D76B7 !important">&#123;</span>
             <br> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#5573C6 !important">function</span> sumaNumeros<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span> A<span style="color:#FFF !important">,</span> <span style="color:#BDCDA6 !important">uint</span> B<span style="color:#F4A338 !important">)</span> <span style="color:#BDCDA6 !important">public view</span> returns<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span><span style="color:#F4A338 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> result <span style="color:#FFF !important">=</span> <span style="color:#F4A338 !important">(</span>A <span style="color:#FFF !important">+</span> B<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
@@ -677,14 +678,14 @@
             <br> &nbsp;&nbsp;&nbsp;&nbsp;suma <span style="color:#FFF !important">=</span> sumaNumeros<span style="color:#F4A338 !important">(</span>numeroUno<span style="color:#FFF !important">,</span> numeroDos<span style="color:#F4A338 !important">)</span><span style="color:#FFF !important">;</span>
             <br> <span style="color:#9D76B7 !important">&#125;</span>
     
-    p.mb-5 La devolución de datos en una función es opcional, es decir no es necesario implementarlo si no se requiere, además #[em Solidity] permite crear funciones que retornen más de un valor, aunque esto debe de estar declarado en la función inicial.
+    p.mb-5 La devolución de datos en una función es opcional, es decir no es necesario implementarlo si no se requiere, además Solidity permite crear funciones que retornen más de un valor, aunque esto debe de estar declarado en la función inicial.
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .BGB03.p-2(data-aos="fade-right")
-          .h5.text-center.mb-0 Ejemplo de definición y uso de una función que retorna 2 valores en #[em solidity]
+          .h5.text-center.mb-0 Ejemplo de definición y uso de una función que retorna 2 valores en Solidity
         .BG06.p-4.mb-4(data-aos="fade-right")
-          p.texto-celeste.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
+          p.texto-celeste.font-courier.mb-0 pragma solidity <span style="color:#FFF !important">^</span><span style="color:#BDCDA6 !important">0.5.0</span><span style="color:#FFF !important">;</span>
             <br> contract <span style="color:#5573C6 !important">Test</span> <span style="color:#9D76B7 !important">&#123;</span>
             <br> &nbsp;&nbsp;&nbsp;&nbsp;function operaciones <span style="color:#F4A338 !important">()</span> <span style="color:#BDCDA6 !important">public view</span> returns<span style="color:#F4A338 !important">(</span><span style="color:#BDCDA6 !important">uint</span> product, <span style="color:#BDCDA6 !important">uint</span> sum<span style="color:#F4A338 !important">)</span><span style="color:#9D76B7 !important">&#123;</span>
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">uint</span> a <span style="color:#FFF !important">=</span> 1<span style="color:#FFF !important">;</span>
@@ -705,7 +706,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.text-white.mb-1 #[em Functions]
+                  h3.text-white.mb-1 Functions
                   p.text-white.mb-0 Si se desea profundizar más en los conceptos revisados anteriormente, se invita a consultar el siguiente enlace, en donde se podrá informar acerca de cómo generar funciones en la documentación oficial del lenguaje de programación:
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://docs.soliditylang.org/en/v0.8.12/contracts.html#functions" target="_blank")

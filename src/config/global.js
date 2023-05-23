@@ -177,25 +177,26 @@ export default {
     {
       tema: 'Construcción contratos inteligentes',
       referencia:
-        'Solitidy. (2022). Introducción a los contratos inteligentes.',
+        'Solidity. (2022). <em>Introducción a los contratos inteligentes.</em>',
       tipo: 'Página web',
       link: 'https://docs.soliditylang.org',
     },
     {
       tema: 'Construcción contratos inteligentes',
-      referencia: 'Solitidy (2022), Solidity Documentation.',
+      referencia: 'Solidity (2022), <em>Solidity Documentation.</em>',
       tipo: 'Manual electrónico',
       link: 'https://solidity-es.readthedocs.io/es ',
     },
     {
       tema: 'Instalación y Configuración',
-      referencia: 'Remix IDE. (2022). Welcome to Remix’s documentation.',
+      referencia:
+        'Remix IDE. (2022). <em>Welcome to Remix’s documentation.</em>',
       tipo: 'Manual electrónico',
       link: 'https://remix-ide.readthedocs.io/en/latest ',
     },
     {
       tema: 'Instalación y Configuración',
-      referencia: 'Ganache. (2022). Ganache documentation.',
+      referencia: 'Ganache. (2022). <em>Ganache documentation.</em>',
       tipo: 'Manual electrónico',
       link: 'https://trufflesuite.com/docs/ganache',
     },
@@ -241,7 +242,7 @@ export default {
     },
     {
       referencia:
-        'Fuentes Blanco, E. A. (2022). Contratos inteligentes: un análisis teórico desde la autonomía privada en el ordenamiento jurídico colombiano. 1. Editorial Unimagdalena.',
+        'Fuentes Blanco, E. A. (2022). <em>Contratos inteligentes: un análisis teórico desde la autonomía privada en el ordenamiento jurídico colombiano.</em> 1. Editorial Unimagdalena.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/214513',
     },
@@ -256,14 +257,15 @@ export default {
     },
     {
       referencia:
-        'MINTIC. (2022) Guía de referencia de <em>blockchain</em> para la adopción e implementación de proyectos en el estado colombiano. ',
+        'MINTIC. (2022) <em>Guía de referencia de <em>blockchain</em> para la adopción e implementación de proyectos en el estado colombiano.</em>',
       link:
         'https://gobiernodigital.mintic.gov.co/692/articles-161810_Ley_2052_2020.pdf',
     },
     {
       referencia:
-        'Morant, A. (2018). Los 5 Beneficios de los <em>SMART CONTRACT</em>.',
-      link: 'https://www.alfonsomorant.com/5-beneficios-de-los-smart-contract/',
+        'ByBT Learn. (Septiembre 15, 2021), <em>¿Qué son los contratos inteligentes en blockchain y cómo funcionan?</em>',
+      link:
+        'https://learn.bybit.com/es/blockchain/what-are-smart-contracts-in-blockchain-how-do-they-work/',
     },
     {
       referencia:
@@ -276,12 +278,12 @@ export default {
       link: 'https://www.edureka.co/blog/smart-contracts/',
     },
     {
-      referencia: '<em>Solidity</em> (2022), <em>Solidity Documentation</em>.',
+      referencia: 'Solidity (2022), <em>Solidity Documentation</em>.',
       link: 'https://solidity-es.readthedocs.io/es',
     },
     {
       referencia:
-        'Tudela, L (2019) Arquitectura <em>blockchain</em> para la securización de dispositivos iot mediante <em>smart contracts</em>.',
+        'Tudela, L (2019) <em>Arquitectura blockchain para la securización de dispositivos iot mediante smart contracts</em>.',
       link: 'http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345',
     },
   ],
@@ -295,9 +297,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Morales',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

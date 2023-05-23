@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.BGIMG01.p-4.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-0 El proceso de construcción de un contrato inteligente requiere tener presente algunos conceptos importantes sobre su funcionamiento, herramientas tecnológicas, conceptos propios de las redes de #[em blockchain] y ciertos conocimientos básicos de programación preferiblemente de lenguajes de programación especializados como #[em Solidity], se invita a continuar con el reconocimiento de estos conocimientos y de la estructura de un contrato inteligente. 
+        p.mb-0 El proceso de construcción de un contrato inteligente requiere tener presente algunos conceptos importantes sobre su funcionamiento, herramientas tecnológicas, conceptos propios de las redes de #[em blockchain] y ciertos conocimientos básicos de programación preferiblemente de lenguajes de programación especializados como Solidity. 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img01.png")
       
@@ -17,7 +17,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Definición, características
     
-    p Un contrato inteligente o #[em Smart Contract], como su nombre lo indica, es un contrato semejante al contrato ordinario, en donde se requiere  participar presencialmente, firmar y/o sellar, pero, ahora se cuenta con un mecanismo y agilidad que permite establecer acciones para una transacción, sin estar presente, bajo algunos controles y un bajo costo de transacción; para la creación de un contrato inteligente se hace uso de lenguajes de programación sobre los cuales se programan las reglas, condiciones y flujo de información para finalmente registrar dicha información sobre una red de #[em blockchain] (ver figura 1).
+    p Un contrato inteligente o #[em smart contract], como su nombre lo indica, es un contrato semejante al contrato ordinario, en donde se requiere  participar presencialmente, firmar y/o sellar, pero, ahora se cuenta con un mecanismo y agilidad que permite establecer acciones para una transacción, sin estar presente, bajo algunos controles y un bajo costo de transacción; para la creación de un contrato inteligente se hace uso de lenguajes de programación sobre los cuales se programan las reglas, condiciones y flujo de información para finalmente registrar dicha información sobre una red de #[em blockchain] (ver figura 1).
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -26,7 +26,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img02.jpg')})`}" data-aos="fade-right"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-left")
-            p.mb-0 El término #[em Smart Contract] es asociado a contratos automatizados, lo cual es correcto. Pero, vale la pena aclarar que, si bien los orígenes del término y las intenciones de quien lo acuñó por primera vez quizás se centraron en permitir contratos automatizados, la implementación final sobre una red de #[em blockchain] los ubica más próximos a programas de computación de uso más o menos genérico, con la posibilidad de acceder a dinero (#[em token's]) y con algunas restricciones y costos de ejecución.
+            p.mb-0 El término #[em smart contract] es asociado a contratos automatizados, lo cual es correcto. Pero, vale la pena aclarar que, si bien los orígenes del término y las intenciones de quien lo acuñó por primera vez quizás se centraron en permitir contratos automatizados, la implementación final sobre una red de #[em blockchain] los ubica más próximos a programas de computación de uso más o menos genérico, con la posibilidad de acceder a dinero (#[em tokens]) y con algunas restricciones y costos de ejecución.
 
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -34,9 +34,9 @@
           span Cómo funcionan los contratos inteligentes
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/img03.svg")
-          figcaption.text-center Nota. <a style="font-weight: 400">Adaptado de Morant, A. (2018). </a> <a style="color: #8628A5" href="https://www.alfonsomorant.com/5-beneficios-de-los-smart-contract/" target="_blank">Los 5 Beneficios de los #[em SMART CONTRACT]</a>
+          figcaption.text-center Nota. <a style="font-weight: 400">ByBT Learn. (Septiembre 15, 2021). </a> <a style="color: #8628A5" href="https://learn.bybit.com/es/blockchain/what-are-smart-contracts-in-blockchain-how-do-they-work/" target="_blank">¿Qué son los contratos inteligentes en blockchain y cómo funcionan?</a>
 
-    p La inclusión de estos contratos inteligentes, en diferentes aplicaciones y soluciones de comercio electrónico, basadas en #[em blockchain], facilitan actividades como (ver figura 2):
+    p La inclusión de estos contratos inteligentes, en diferentes aplicaciones y soluciones de comercio electrónico, basadas en #[em blockchain], facilita actividades como (ver figura 2):
 
     .BGIMG02.px-md-5.px-4.py-4.mb-5
       .row.justify-content-center
@@ -47,7 +47,7 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/img04.svg")
     
-    p Al comparar los contratos tradicionales y los contratos inteligentes, existe una marcada diferencia, lo cual es un punto de apoyo para tornar a esta tecnología, sin embargo, vale la pena recordar en que se soporta esta diferencia y las principales ventajas que tiene (ver tabla 1):
+    p Al comparar los contratos tradicionales y los contratos inteligentes, existe una marcada diferencia, lo cual es un punto de apoyo para tornar a esta tecnología, sin embargo, vale la pena recordar en qué se soporta esta diferencia y las principales ventajas que tiene (ver tabla 1):
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -75,7 +75,7 @@
               tr
                 th(style="background-color: #F6FEFF") Fideicomiso
                 td(style="background-color: #F6FEFF") Incorporar #[em blockchain] para validar que se cumpla la voluntad del fideicomitente y la autoridad competente, no es absolutamente necesario.
-                td(style="background-color: #F6FEFF") La seguridad pactada para proteger el cumplimiento de acciones establecidas en el contrato y que se denomina fideicomiso es necesario.
+                td(style="background-color: #F6FEFF") La seguridad pactada para proteger el cumplimiento de acciones establecidas en el contrato y que se denomina fideicomiso es necesaria.
               tr
                 th(style="background-color: #FFF") Costos
                 td(style="background-color: #FFF") Se realiza por una fracción del costo de un contrato tradicional.
@@ -96,9 +96,9 @@
     
     .row.justify-content-center.mb-5
       .col-lg-10.order-lg-1.order-2(data-aos="fade-right")
-        p La principal variedad en estos elementos radica en la forma en que se aplican, dado que, en el contrato inteligente, el consentimiento de los interesados se manifiesta de forma electrónica.
-        p Adicional, a estos tres elementos básicos, los contratos inteligentes precisan de ciertos medios especiales para poder ejecutarse y también necesitan de la elaboración de definiciones concretas de los parámetros del contrato, ya que no se puede dar lugar al subjetivismo.
-        .h5.mb-0 Los principales elementos o medios informáticos adicionales para el funcionamiento y ejecución de este tipo de contratos inteligentes son:     
+        p La principal diferencia entre estos elementos radica en la forma en que se aplican, dado que, en el contrato inteligente, el consentimiento de los interesados se manifiesta de forma electrónica.
+        p Adicionalmente, los contratos inteligentes precisan de ciertos medios especiales para poder ejecutarse y también necesitan de la elaboración de definiciones concretas de los parámetros del contrato, ya que no se puede dar lugar a la subjetividad.
+        .h5.mb-0 Los principales elementos o medios informáticos adicionales para el funcionamiento y ejecución de este tipo de contratos son:
       .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img05.svg')
     
@@ -111,14 +111,14 @@
             p.text-small(numero="1" titulo="Plataforma de acceso") Debe contar con una plataforma con acceso a tecnología de contabilidad distribuida y formada por varios nodos de red #[em blockchain].
             p.text-small(numero="2" titulo="Nodos <em>blockchain</em>") Estos nodos son ordenadores que custodian los registros, es decir “los libros contables”.
             p.text-small(numero="3" titulo="Lenguaje computacional") Es muy importante contar con un lenguaje computacional encriptado que sea adecuado.
-            p.text-small(numero="4" titulo="Funciones hashes") Los mineros que son las propias personas que trabajan programando y sus hardware para autorizar la adición de los bloques de transacciones a la cadena de bloques. Realizando funciones hashes correspondientes al protocolo de consenso entre las partes.
+            p.text-small(numero="4" titulo="Funciones <em>hashes</em>") Los mineros que son las propias personas que trabajan programando y sus #[em hardware] para autorizar la adición de los bloques de transacciones a la cadena de bloques. Realizando funciones <em>hashes</em> correspondientes al protocolo de consenso entre las partes.
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Limitaciones de contratos inteligentes
 
     p Como se observó anteriormente, el campo de acción donde se pueden implementar contratos inteligentes es extenso, y se pueden abordar infinidad de proyectos para el intercambio de información de manera segura a través de redes de #[em blockchain].
-    p.mb-5 Ahora bien, dada su aplicabilidad y su robustez generada por sus características, también se puede ver afectado por ciertas limitaciones o restricciones para su adopción, se debe revisar algunos casos en donde se puede presentar cierta limitación (ver figura 3):
+    p.mb-5 Ahora bien, dada su aplicabilidad y la robustez generada por sus características, también se puede ver afectado por ciertas limitaciones o restricciones para su adopción, se debe revisar algunos casos en donde se puede presentar cierta limitación (ver figura 3):
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -137,7 +137,7 @@
 
       .BGR03.p-3(x="22%" y="50%" numero="1")
         .h5.texto-secundario.mb-2 1. Flexibilidad
-        p.mb-0 La ejecución basada en la lógica a menudo es un desafío para los bufetes de abogados. La creación de contratos tiene un elemento subjetivo y tiene un uso intencional de términos como "buena fe" o "razonable" o "mejores esfuerzos para tener espacio para la flexibilidad". Este tipo de contrato es necesario cuando las partes quieren crear un contrato relacional en lugar de uno transaccional. En tales escenarios, los contratos inteligentes no ofrecen utilidad.
+        p.mb-0 La ejecución basada en la lógica a menudo es un desafío para los bufetes de abogados. La creación de contratos tiene un elemento subjetivo y tiene un uso intencional de términos como "buena fe", "razonable" o "mejores esfuerzos para tener espacio para la flexibilidad". Este tipo de contrato es necesario cuando las partes quieren crear un contrato relacional en lugar de uno transaccional. En tales escenarios, los contratos inteligentes no ofrecen utilidad.
       .BGR03.p-3(x="32.5%" y="86%" numero="2")
         .h5.texto-secundario.mb-2 2. Ramificaciones legales
         p.mb-0 Dado que los contratos inteligentes reducen la dependencia de intermediarios y abogados, es imperativo que las partes involucradas sean conscientes de las ramificaciones legales del derecho público, privado, penal y mercantil.
@@ -149,7 +149,7 @@
         p.mb-0 Cada contrato inteligente al desplegarse sobre una red de #[em blockchain] se propaga por todos sus nodos, y cualquier cambio en su versión desplegada es casi imposible, conllevando grandes dificultades actualizar o corregir alguna falla.
       .BGR03.p-3(x="65%" y="70%" numero="5")
         .h5.texto-secundario.mb-2 5. Posibilidad de generar vacíos o lagunas
-        p.mb-0 De acuerdo con el concepto de buena fe, las partes tratarán de manera justa y no obtendrán beneficios poco éticos de un contrato. Sin embargo, el uso de contratos inteligentes hace que sea difícil garantizar que los términos se cumplan de acuerdo con lo acordado.
+        p.mb-0 De acuerdo con el concepto de buena fe, las partes se tratarán de manera justa y no obtendrán beneficios poco éticos de un contrato. Sin embargo, el uso de contratos inteligentes hace que sea difícil garantizar que los términos se cumplan de acuerdo con lo acordado.
       .BGR03.p-3(x="69%" y="32%" numero="6")
         .h5.texto-secundario.mb-2 6. Terceros
         p.mb-0 A pesar de que los contratos inteligentes buscan reducir la participación de terceros, no es posible eliminarlos. Los terceros asumen roles diferentes de los que asumen en los contratos tradicionales. Por ejemplo, no se necesitarán abogados para preparar contratos individuales; sin embargo, los desarrolladores los necesitarán para comprender los términos para crear códigos para contratos inteligentes.
@@ -189,13 +189,13 @@
           p Declara la versión mínima del compilador del contrato que se debe utilizar, para este caso será la versión 0.6.5 o superior, en caso de utilizar una versión menor, podría causar problemas por compatibilidad.
           .BG06.p-4
             p.texto-verde.mb-2 //COMPILADOR
-            p.texto-azul.mb-0 pragma #[em Solidity] <a style="color: #fff"> ^0.6.5</a>
+            p.texto-azul.mb-0 pragma Solidity <a style="color: #fff"> ^0.6.5;</a>
         .BGR05.p-4(titulo="Contratos, interfaces o librerías a importar")
           h4 Contratos, interfaces o librerías a importar
           p En este apartado se deben de especificar todos aquellos archivos de otros contratos, interfaces o librerías que son necesarias para que el contrato inteligente pueda funcionar, se debe agregar las líneas con la función import seguido de la ruta relativa del archivo a importar, como se muestra a continuación.
           .BG06.p-4
             p.texto-verde.mb-2 //IMPORTAR OTROS CONTRATOS, INTERFACES O LIBRERIAS
-            p.texto-azul.mb-0 import <a style="color: #C78D76"> "./FuncionesSeguridad.sol"</a>
+            p.texto-azul.mb-0 import <a style="color: #C78D76"> "./FuncionesSeguridad.sol"</a><a style="color: #fff">;</a>
         .BGR05.p-4(titulo="Cuerpo del contrato")
           h4 Cuerpo del contrato
           p Este espacio podremos programar la lógica de nuestro contrato inteligente, teniendo en cuenta que podremos incluir: librerías variables, eventos, modificadores, constructores y funciones personalizadas.
@@ -263,8 +263,8 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h3.text-white.mb-1 #[em Solidity]
-                    p.text-white.mb-0 Se puede encontrar más información sobre la estructura y sintaxis de un contrato inteligente construido con #[em Solidity], en la página oficial, al que se puede acceder en el siguiente enlace:
+                    h3.text-white.mb-1 Solidity
+                    p.text-white.mb-0 Se puede encontrar más información sobre la estructura y sintaxis de un contrato inteligente construido con Solidity, en la página oficial, al que se puede acceder en el siguiente enlace:
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://docs.soliditylang.org" target="_blank")
                       span(style="color: #000; font-weight: 400") Ir a sitio web
