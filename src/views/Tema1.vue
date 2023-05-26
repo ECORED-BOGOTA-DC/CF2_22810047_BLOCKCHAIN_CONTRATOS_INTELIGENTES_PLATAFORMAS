@@ -17,7 +17,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Definición, características
     
-    p Un contrato inteligente o #[em smart contract], como su nombre lo indica, es un contrato semejante al contrato ordinario, en donde se requiere  participar presencialmente, firmar y/o sellar, pero, ahora se cuenta con un mecanismo y agilidad que permite establecer acciones para una transacción, sin estar presente, bajo algunos controles y un bajo costo de transacción; para la creación de un contrato inteligente se hace uso de lenguajes de programación sobre los cuales se programan las reglas, condiciones y flujo de información para finalmente registrar dicha información sobre una red de #[em blockchain] (ver figura 1).
+    p Un contrato inteligente o #[em smart contract], como su nombre lo indica, es un contrato semejante al contrato ordinario, en donde se requiere  participar presencialmente, firmar o sellar, pero, ahora se cuenta con un mecanismo y agilidad que permite establecer acciones para una transacción, sin estar presente, bajo algunos controles y un bajo costo de transacción; para la creación de un contrato inteligente se hace uso de lenguajes de programación sobre los cuales se programan las reglas, condiciones y flujo de información para finalmente registrar dicha información sobre una red de #[em blockchain] (ver figura 1).
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -34,7 +34,7 @@
           span Cómo funcionan los contratos inteligentes
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/img03.svg")
-          figcaption.text-center Nota. <a style="font-weight: 400">ByBT Learn. (Septiembre 15, 2021). </a> <a style="color: #8628A5" href="https://learn.bybit.com/es/blockchain/what-are-smart-contracts-in-blockchain-how-do-they-work/" target="_blank">¿Qué son los contratos inteligentes en blockchain y cómo funcionan?</a>
+          figcaption.text-center Nota. <a style="font-weight: 400">ByBT Learn. (Septiembre 15, 2021). </a> <a style="color: #8628A5" href="https://learn.bybit.com/es/blockchain/what-are-smart-contracts-in-blockchain-how-do-they-work/" target="_blank">¿Qué son los contratos inteligentes en #[em blockchain] y cómo funcionan?</a>
 
     p La inclusión de estos contratos inteligentes, en diferentes aplicaciones y soluciones de comercio electrónico, basadas en #[em blockchain], facilita actividades como (ver figura 2):
 
@@ -258,7 +258,7 @@
         .col-lg-10(data-aos="flip-up")
           .BGR08.p-3
             .row.justify-content-around.align-items-center
-              .col-4.col-sm-3.col-lg-2.px-5
+              .col-4.col-sm-3.col-lg-2.px-xl-5.px-md-2
                 img(src="@/assets/curso/temas/img02.svg")
               .col
                 .row.justify-content-between.align-items-center
@@ -269,8 +269,6 @@
                     a.boton.color-acento-botones(href="https://docs.soliditylang.org" target="_blank")
                       span(style="color: #000; font-weight: 400") Ir a sitio web
                       i.fas.fa-link(style="color: #000")
-
-
       
 </template>
 

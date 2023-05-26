@@ -141,19 +141,19 @@
           ul.lista-ul--color
             li
               i.fas.fa-cube(style="color: #FFD800;")
-              | <a style="font-weight: 900">Hostname</a>: selección de las interfaces de red por las que se necesita la conexión a la red #[em blockchain], si es el caso que otros dispositivos requieran conectarse a la red, se debe seleccionar “0.0.0.0 All Interfaces”.
+              p.mb-0 <a style="font-weight: 900">Hostname</a>: selección de las interfaces de red por las que se necesita la conexión a la red #[em blockchain], si es el caso que otros dispositivos requieran conectarse a la red, se debe seleccionar “0.0.0.0 All Interfaces”.
             li
               i.fas.fa-cube(style="color: #FFD800;")
-              | <a style="font-weight: 900">Port Number</a>: número del puerto TCP que permitirá la conexión remotamente.
+              p.mb-0 <a style="font-weight: 900">Port Number</a>: número del puerto TCP que permitirá la conexión remotamente.
             li
               i.fas.fa-cube(style="color: #FFD800;")
-              | <a style="font-weight: 900">Network ID</a>: número de identificador de la red #[em blockchain].
+              p.mb-0 <a style="font-weight: 900">Network ID</a>: número de identificador de la red #[em blockchain].
             li
               i.fas.fa-cube(style="color: #FFD800;")
-              | <a style="font-weight: 900">Automine</a>: para establecer si se realizara el auto minado.
+              p.mb-0 <a style="font-weight: 900">Automine</a>: para establecer si se realizara el auto minado.
             li
               i.fas.fa-cube(style="color: #FFD800;")
-              | <a style="font-weight: 900">Error on Transaction Failure</a>: presenta mensajes de error cuando una transacción no puede llevarse a cabo.
+              p.mb-0 <a style="font-weight: 900">Error on Transaction Failure</a>: presenta mensajes de error cuando una transacción no puede llevarse a cabo.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.p-2.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema2/img12.png")
     
@@ -174,16 +174,16 @@
         ul.lista-ul--color
           li
             i.fas.fa-cube(style="color: #FFD800;")
-            | <a style="font-weight: 900; color: #8628A5;">Account Default Balance.</a> Balance inicial en Ether de cada una de las cuentas
+            p.mb-0 <a style="font-weight: 900; color: #8628A5;">Account Default Balance.</a> Balance inicial en Ether de cada una de las cuentas
           li
             i.fas.fa-cube(style="color: #FFD800;")
-            | <a style="font-weight: 900; color: #8628A5">Total, <a style="font-weight: 900">Accounts to Generate.</a></a> Cantidad de cuentas a crear
+            p.mb-0 <a style="font-weight: 900; color: #8628A5">Total, <a style="font-weight: 900">Accounts to Generate.</a></a> Cantidad de cuentas a crear
           li
             i.fas.fa-cube(style="color: #FFD800;")
-            | <a style="font-weight: 900; color: #8628A5;">Autogenerate HD Mnemonic.</a> Seleccionar si se generará una llave privada o se le asignará una, en caso de seleccionar No. Se debe suministrar la llave.
+            p.mb-0 <a style="font-weight: 900; color: #8628A5;">Autogenerate HD Mnemonic.</a> Seleccionar si se generará una llave privada o se le asignará una, en caso de seleccionar No. Se debe suministrar la llave.
           li
             i.fas.fa-cube(style="color: #FFD800;")
-            | <a style="font-weight: 900; color: #8628A5;">Lock Accoounts.</a> Configura si las cuentas iniciarán en estado bloqueado.
+            p.mb-0 <a style="font-weight: 900; color: #8628A5;">Lock Accoounts.</a> Configura si las cuentas iniciarán en estado bloqueado.
     
     .h5.text-center.mb-5 En la siguiente imagen se muestra las cuentas requeridas para crear en la red, una vez se han tenido en cuenta los criterios indicados:
 

@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.BGIMG04.p-4.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-0 Solidity es un lenguaje de alto nivel, orientado a contratos y de tipo estático para implementar contratos inteligentes en la plataforma Ethereum, con el cual pueden generarse los contratos inteligentes bajo la red de Ethereum, Su sintaxis es muy similar a la de lenguajes muy conocidos como C++ o Javascript.
+        p.mb-0 Solidity es un lenguaje de alto nivel, orientado a contratos y de tipo estático para implementar contratos inteligentes en la plataforma Ethereum, con el cual pueden generarse los contratos inteligentes bajo la red de Ethereum, su sintaxis es muy similar a la de lenguajes muy conocidos como C++ o Javascript.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img01.png")
     
@@ -92,60 +92,67 @@
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9D76B7 !important">&#125;</span>
                 <br><br> <span style="color:#9D76B7 !important">&#125;</span>
 
-        .row.justify-content-center
-          .col-lg-3.order-lg-1.order-2
+        .row.justify-content-around
+          .col-6
             .h4 Variables globales
             p Existen variables especiales en el espacio de nombres global utilizado para obtener información sobre la cadena de bloques, como se puede apreciar en la siguiente tabla. 
-          .col-lg-9.order-lg-2.order-1.mb-lg-0.mb-4
-            .tabla-b.color-acento-contenido.mb-4
-              table
-                thead
-                  tr
-                    th(style="background-color: #DEFAFD; width: 37.5%; font-size: 18px").text-center Nombre de variable global
-                    th(style="background-color: #DEFAFD; width: 62.5%; font-size: 18px").text-center Devuelve
-                tbody
-                  tr
-                    th(style="background-color: #FFF") Blochash (uint blockNumber) returns (bytes 32)
-                    td(style="background-color: #FFF") #[em Hash] del bloque dado: solo funciona para los bloques más recientes, excluyendo los actuales,
-                  tr
-                    th(style="background-color: #F6FEFF") block.coinbase (address payable)
-                    td(style="background-color: #F6FEFF") Dirección actual del minero de bloques
-                  tr
-                    th(style="background-color: #FFF") block. difficulty (uint)
-                    td(style="background-color: #FFF") Dificultad del bloque actual
-                  tr
-                    th(style="background-color: #F6FEFF") block.gaslimit (uint)
-                    td(style="background-color: #F6FEFF") Límite de gas del bloque de corriente
-                  tr
-                    th(style="background-color: #FFF") block.number (uint)
-                    td(style="background-color: #FFF") Número de bloque actual
-                  tr
-                    th(style="background-color: #F6FEFF") block.timestamp (uint)
-                    td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual como segundos desde la época de Unix
-                  tr
-                    th(style="background-color: #FFF") gasleft() returns (uint256)
-                    td(style="background-color: #FFF") Gas restante
-                  tr
-                    th(style="background-color: #F6FEFF") msg.data (bytes calldata)
-                    td(style="background-color: #F6FEFF") Datos de llamada completos
-                  tr
-                    th(style="background-color: #FFF") msg.sender (address payable)
-                    td(style="background-color: #FFF") Remitente del mensaje (persona que llama actualmente)
-                  tr
-                    th(style="background-color: #F6FEFF") msg.sig (bytes4)
-                    td(style="background-color: #F6FEFF") Primeros cuatro #[em bytes] de los datos de llamada (identificador de función)
-                  tr
-                    th(style="background-color: #FFF") msg.value (uint)
-                    td(style="background-color: #FFF") Número de wei enviados con el mensaje
-                  tr
-                    th(style="background-color: #F6FEFF") now (uint)
-                    td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual
-                  tr
-                    th(style="background-color: #FFF") tx.gasprice (uint)
-                    td(style="background-color: #FFF") Precio del gas de la transacción
-                  tr
-                    th(style="background-color: #F6FEFF") tx.origin (address payable)
-                    td(style="background-color: #F6FEFF") Remitente de la transacción
+          .col
+            a.boton.color-secundario.indicador__container(@click="modal1 = true")
+              span Abrir tabla
+              .indicador--click(v-if="mostrarIndicador")
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.justify-content-center
+        .col-lg-10          
+          .tabla-b.color-acento-contenido.mb-4
+            table
+              thead
+                tr
+                  th(style="background-color: #DEFAFD; width: 37.5%; font-size: 18px").text-center Nombre de variable global
+                  th(style="background-color: #DEFAFD; width: 62.5%; font-size: 18px").text-center Devuelve
+              tbody
+                tr
+                  th(style="background-color: #FFF") Blochash (uint blockNumber) returns (bytes 32)
+                  td(style="background-color: #FFF") #[em Hash] del bloque dado: solo funciona para los bloques más recientes, excluyendo los actuales,
+                tr
+                  th(style="background-color: #F6FEFF") block.coinbase (address payable)
+                  td(style="background-color: #F6FEFF") Dirección actual del minero de bloques
+                tr
+                  th(style="background-color: #FFF") block. difficulty (uint)
+                  td(style="background-color: #FFF") Dificultad del bloque actual
+                tr
+                  th(style="background-color: #F6FEFF") block.gaslimit (uint)
+                  td(style="background-color: #F6FEFF") Límite de gas del bloque de corriente
+                tr
+                  th(style="background-color: #FFF") block.number (uint)
+                  td(style="background-color: #FFF") Número de bloque actual
+                tr
+                  th(style="background-color: #F6FEFF") block.timestamp (uint)
+                  td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual como segundos desde la época de Unix
+                tr
+                  th(style="background-color: #FFF") gasleft() returns (uint256)
+                  td(style="background-color: #FFF") Gas restante
+                tr
+                  th(style="background-color: #F6FEFF") msg.data (bytes calldata)
+                  td(style="background-color: #F6FEFF") Datos de llamada completos
+                tr
+                  th(style="background-color: #FFF") msg.sender (address payable)
+                  td(style="background-color: #FFF") Remitente del mensaje (persona que llama actualmente)
+                tr
+                  th(style="background-color: #F6FEFF") msg.sig (bytes4)
+                  td(style="background-color: #F6FEFF") Primeros cuatro #[em bytes] de los datos de llamada (identificador de función)
+                tr
+                  th(style="background-color: #FFF") msg.value (uint)
+                  td(style="background-color: #FFF") Número de wei enviados con el mensaje
+                tr
+                  th(style="background-color: #F6FEFF") now (uint)
+                  td(style="background-color: #F6FEFF") Marca de tiempo de bloque actual
+                tr
+                  th(style="background-color: #FFF") tx.gasprice (uint)
+                  td(style="background-color: #FFF") Precio del gas de la transacción
+                tr
+                  th(style="background-color: #F6FEFF") tx.origin (address payable)
+                  td(style="background-color: #F6FEFF") Remitente de la transacción
 
     .tarjeta-avatar-b.mb-5(data-aos="fade-right")
       .tarjeta-avatar-b__img
@@ -387,7 +394,7 @@
         p Solidity admite los siguientes operadores de asignación, revisemos la siguiente tabla de operadores #[em bitwise] para ver cómo se comportan cada uno de ellos.
         .tabla-b.color-acento-contenido.mb-4
           table
-            caption.text-center Nota. <a style="font-weight: 400">La misma lógica se aplica a los operadores bitwise, por lo que se volverán como &lt;&lt;=, &gt;&gt;=, &gt;&gt;=, &amp;=, |= y ^=</a>
+            caption.text-center Nota. <a style="font-weight: 400">La misma lógica se aplica a los operadores #[em bitwise], por lo que se volverán como &lt;&lt;=, &gt;&gt;=, &gt;&gt;=, &amp;=, |= y ^=</a>
             thead
               tr
                 th(style="background-color: #DEFAFD; width: 20%; font-size: 18px").text-center Operador
@@ -448,8 +455,8 @@
         tbody
           tr
             th(style="background-color: #F6FEFF") Booleano
-            td(style="background-color: #F6FEFF") #[en bool]
-            td(style="background-color: #F6FEFF") Verdadero/falso.
+            td(style="background-color: #F6FEFF") #[em bool]
+            td(style="background-color: #F6FEFF") Verdadero / falso.
           tr
             th(style="background-color: #FFFFFF") Entero
             td(style="background-color: #FFFFFF") int/uint
@@ -464,7 +471,7 @@
             td(style="background-color: #FFFFFF") Int sin firmar de 8 bits a 256 bits. uint256 es lo mismo que uint.
           tr
             th(style="background-color: #F6FEFF") Números de puntos fijos
-            td(style="background-color: #F6FEFF") fijo/ no fijo
+            td(style="background-color: #F6FEFF") fijo / no fijo
             td(style="background-color: #F6FEFF") Números de punto fijos firmados y sin firmar de diferentes tamaños.
           tr
             th(style="background-color: #FFFFFF") Números de puntos fijos
@@ -720,6 +727,7 @@ export default {
   name: 'Tema3',
   data: () => ({
     mostrarIndicador: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {

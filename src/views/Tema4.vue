@@ -121,7 +121,7 @@
             img(src="@/assets/curso/tema4/img07.jpg")
             figcaption.text-center Nota. <a style="font-weight: 400">Tomado de </a><a style="color: #8628A5" href="https://remix.ethereum.org" target="_blank">Remix - Ethereum IDE</a>
 
-    p Una vez realizada la compilación, si no se presentan problemas, se puede proceder a realizar el despliegue del contrato inteligente en nuestra red de pruebas, para ello, se procede a hacer clic en el botón de Compilación de #[em Solidity], en donde se pueden seleccionar algunos elementos necesarios para realizar el despliegue del contrato inteligente:
+    p Una vez realizada la compilación, si no se presentan problemas, se puede proceder a realizar el despliegue del contrato inteligente en nuestra red de pruebas, para ello, se procede a hacer clic en el botón de Compilación de Solidity, en donde se pueden seleccionar algunos elementos necesarios para realizar el despliegue del contrato inteligente:
     
     ImagenInfografica.color-acento-botones(data-aos="fade-up")
       template(v-slot:imagen)
