@@ -292,13 +292,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizabal Gutiérrez',
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Morales',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Liliana Victoria Morales Gualdron',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -341,6 +341,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Virtual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
           nombre: 'Eulises Orduz Amezquita',
           cargo: 'Diseñador web',
           centro:
@@ -353,9 +359,10 @@ export default {
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -363,14 +370,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Lina Marcela Pérez Manchego ',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Castaño Pérez Leyson Fabian',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
