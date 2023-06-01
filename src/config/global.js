@@ -313,20 +313,20 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Hernando José Peña Hidalgo	Experto Temático',
+          nombre: 'Hernando José Peña Hidalgo',
           cargo: 'Experto Temático',
           centro:
             'Regional Cauca, Centro de teleinformática y producción industrial',
         },
         {
-          nombre: 'María Inés Machado López	Diseñador instruccional',
+          nombre: 'María Inés Machado López',
           cargo: 'Diseñador instruccional',
           centro:
             'Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesor Metodológico',
+          cargo: 'Metodóloga para la formación virtual',
           centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
         },
         {
@@ -347,7 +347,7 @@ export default {
       autores: [
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Virtual',
+          cargo: 'Metodóloga para la formación virtual',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
