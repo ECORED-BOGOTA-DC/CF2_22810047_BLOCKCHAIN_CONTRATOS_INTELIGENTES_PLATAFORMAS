@@ -376,7 +376,7 @@ export default {
       autores: [
         {
           nombre: 'Lina Marcela Pérez Manchego ',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación de recursos educativos',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -388,7 +388,7 @@ export default {
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
