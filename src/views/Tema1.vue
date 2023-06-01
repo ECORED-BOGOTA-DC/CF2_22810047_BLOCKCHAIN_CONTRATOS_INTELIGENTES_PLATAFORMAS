@@ -198,7 +198,7 @@
             p.texto-azul.mb-0 import <a style="color: #C78D76"> "./FuncionesSeguridad.sol"</a><a style="color: #fff">;</a>
         .BGR05.p-4(titulo="Cuerpo del contrato")
           h4 Cuerpo del contrato
-          p Este espacio podremos programar la lógica de nuestro contrato inteligente, teniendo en cuenta que podremos incluir: librerías variables, eventos, modificadores, constructores y funciones personalizadas.
+          p En este espacio podremos programar la lógica de nuestro contrato inteligente, teniendo en cuenta que podremos incluir: librerías variables, eventos, modificadores, constructores y funciones personalizadas.
           .BG06.p-4
             p.texto-verde.mb-2 //CUERPO DEL CONTRATO
             p.texto-azul.mb-2 contract <a style="color: #fff"> PrimerContrato&#123;</a>
@@ -215,7 +215,7 @@
           p #[strong Funciones externas]: funciones almacenadas en archivos externos los cuales pueden extender las capacidades del contrato inteligente, o también podemos citar otros contratos.
           p #[strong Variables]: las variables de estado son variables cuyos valores se almacenan permanentemente en el almacenamiento contractual.
           p #[strong Eventos]: los eventos son interfaces de conveniencia con las instalaciones de registro de EVM.
-          p.mb-0 Modificadores de funciones: los modificadores de funciones se pueden utilizar para modificar la semántica de las funciones de forma declarativa, la sobrecarga, es decir, tener el mismo nombre modificador con diferentes parámetros, no es posible.
+          p.mb-0 #[strong Modificadores de funciones]: los modificadores de funciones se pueden utilizar para modificar la semántica de las funciones de forma declarativa, la sobrecarga, es decir, tener el mismo nombre modificador con diferentes parámetros, no es posible.
 
     .h5.text-center.mb-5 Al igual que las funciones, los modificadores se pueden anular, en el siguiente recurso se puede observar lo correspondiente al constructor:
 

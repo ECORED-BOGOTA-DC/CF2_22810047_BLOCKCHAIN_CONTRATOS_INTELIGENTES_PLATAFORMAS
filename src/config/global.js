@@ -286,11 +286,6 @@ export default {
       referencia: 'Solidity (2022), <em>Solidity Documentation</em>.',
       link: 'https://solidity-es.readthedocs.io/es',
     },
-    {
-      referencia:
-        'Tudela, L (2019) <em>Arquitectura blockchain para la securización de dispositivos iot mediante smart contracts</em>.',
-      link: 'http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345',
-    },
   ],
   creditos: [
     {

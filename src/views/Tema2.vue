@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.BGIMG03.p-4.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-0 La arquitectura de #[em blockchain] de Ethereum es una de las más grandes y de las más utilizadas en proyectos de aplicaciones y contratos inteligentes sobre #[em blockchain], esto se debe en un principio a que es una de las primeras redes, a su nivel de innovación y a que ha dispuesto las herramientas necesarias para que la comunidad de desarrolladores y usuarios puedan hacer uso de la misma de manera fácil, su propuesta de Ethereum Virtual Machine (EVM) brinda una máquina virtual con la cual puede dar inicio al desarrollo y construcción de proyectos bajo esta plataforma. 
+        p.mb-0 La arquitectura de #[em blockchain] de Ethereum es una de las más grandes y de las más utilizadas en proyectos de aplicaciones y contratos inteligentes sobre #[em blockchain], su nivel de innovación y que ha dispuesto las herramientas necesarias para que la comunidad de desarrolladores y usuarios puedan hacer uso de la misma de manera fácil, su propuesta de Ethereum Virtual Machine (EVM) brinda una máquina virtual con la cual puede dar inicio al desarrollo y construcción de proyectos bajo esta plataforma. 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img01.png")
       
@@ -83,7 +83,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 6
-          span Página oficial para descarga la aplicación Ganache
+          span Página oficial para descargar la aplicación Ganache
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/img07.jpg")
           figcaption.text-center Nota. <a style="font-weight: 400">Tomado de </a><a style="color: #8628A5" href="https://trufflesuite.com/ganache/" target="_blank">https://trufflesuite.com/ganache/</a>
@@ -156,7 +156,7 @@
               p.mb-0 <a style="font-weight: 900">Error on Transaction Failure</a>: presenta mensajes de error cuando una transacción no puede llevarse a cabo.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.p-2.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema2/img12.png")
-    
+
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")

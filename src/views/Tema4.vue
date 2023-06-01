@@ -130,7 +130,7 @@
 
       .BGR03.p-3(x="7.5%" y="58.8%" numero="1")
         .h5.texto-secundario.mb-2 1. #[em Enviroment]/ Entorno
-        p.mb-0 Entorno de ejecución, dado que estamos haciendo pruebas, podremos hacer uso de la opción “Javascripc VM” en cualquiera de sus versiones, esto nos lleva a trabajar sobre redes de prueba y que podemos utilizar recursos no reales.
+        p.mb-0 Entorno de ejecución, dado que estamos haciendo pruebas, podremos hacer uso de la opción “Javascript VM” en cualquiera de sus versiones, esto nos lleva a trabajar sobre redes de prueba y que podemos utilizar recursos no reales.
       .BGR03.p-3(x="14.3%" y="20.3%" numero="2")
         .h5.texto-secundario.mb-2 2. #[em Account]/ Cuenta
         p.mb-0 Este entorno nos proporciona una serie de cuentas, con recursos disponibles, pero este recurso será únicamente de prueba y no será útil en una red de #[em blockchain] real, podemos escoger cualquiera de las cuentas que cuente con saldo.

@@ -550,6 +550,8 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3 Estructuras repetitivas  
     
+    p Las estructuras repetitivas o también conocidas como bucles, permiten repetir cierto número de veces una acción, mientras se cumpla una condición limitante, dentro de las estructuras repetitivas utilizadas en Solidity se tienen:
+
     TabsB.color-secundario.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="For" :icono="require('@/assets/curso/tema3/img09.svg')")
         .row.justify-content-center
@@ -558,13 +560,13 @@
             ul.lista-ul--color
               li
                 i.fas.fa-cube(style="color: #FFD800;")
-                | <a style="font-weight: 900">La inicialización de bucle</a>: donde inicializamos nuestro contador a un valor inicial. La instrucción de inicialización se ejecuta antes de que comience el bucle.
+                p.mb-0 <a style="font-weight: 900">La inicialización de bucle</a>: donde inicializamos nuestro contador a un valor inicial. La instrucción de inicialización se ejecuta antes de que comience el bucle.
               li
                 i.fas.fa-cube(style="color: #FFD800;")
-                | <a style="font-weight: 900">La declaración de prueba</a>: que probará si una condición dada es verdadera o no. Si la condición es verdadera, entonces se ejecutará el código dado dentro del bucle, de lo contrario el control saldrá del bucle.
+                p.mb-0 <a style="font-weight: 900">La declaración de prueba</a>: que probará si una condición dada es verdadera o no. Si la condición es verdadera, entonces se ejecutará el código dado dentro del bucle, de lo contrario el control saldrá del bucle.
               li
                 i.fas.fa-cube(style="color: #FFD800;")
-                | <a style="font-weight: 900">La instrucción de iteración</a>: En la que puede aumentar o disminuir el contador.
+                p.mb-0 <a style="font-weight: 900">La instrucción de iteración</a>: En la que puede aumentar o disminuir el contador.
             p.mb-0 Estos elementos se agregan en una línea al inicio de bucle separados por punto y coma.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img10.svg")
@@ -581,6 +583,8 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img14.svg")
     
+    p.mb-5 Con el uso de las estructuras de control se consigue programar la lógica de negocio de un contrato inteligente, de acuerdo con las necesidades y el comportamiento deseado, a continuación, se observa cómo se implementaría en código Solidity:
+
     .row.justify-content-center.mb-5
       .col-lg-8
         .BGB03.p-2(data-aos="fade-right")
@@ -648,12 +652,12 @@
     .BGIMG06.px-md-5.px-4.py-4.my-4
       .row.justify-content-center
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-          .h5.mb-5 Como establecer las funciones
+          .h5.mb-5 Cómo establecer las funciones
           ol.lista-ol--cuadro.lista-ol--separador
             li 
               .lista-ol--cuadro__vineta(style="background-color: #8628A5")
                 span 1
-              | El primer paso es realizar la definición, la cual se elabora haciendo uso de la palabra clave #[em function], enseguida del nombre el cual debe ser único. 
+              p.mb-0 El primer paso es realizar la definición, la cual se realiza haciendo uso de la palabra clave #[em function], seguida del nombre el cual debe ser único dentro del programa, posteriormente vendrán los parámetros los cuales son opcionales y finalmente el bloque se instrucciones.
             li 
               .lista-ol--cuadro__vineta(style="background-color: #8628A5")
                 span 2
