@@ -326,7 +326,7 @@ export default {
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Metodóloga para la formación virtual',
+          cargo: 'Asesora pedagógica',
           centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
         },
         {
