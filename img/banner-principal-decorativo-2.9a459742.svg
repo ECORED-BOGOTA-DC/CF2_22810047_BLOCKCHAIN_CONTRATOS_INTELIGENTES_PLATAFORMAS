@@ -1,0 +1,25 @@
+<svg id="Objects" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.344" height="72.937" viewBox="0 0 80.344 72.937">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.2"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Middle-size_blocks" data-name="Middle-size blocks">
+    <g id="Grupo_80386" data-name="Grupo 80386">
+      <g id="Grupo_80384" data-name="Grupo 80384">
+        <path id="Trazado_113725" data-name="Trazado 113725" d="M38.25,19.64H16.76L30.4,27.52,16.76,35.391H38.25L51.885,27.52Z" transform="translate(-3.117 -3.653)" fill="url(#linear-gradient)"/>
+        <path id="Trazado_113726" data-name="Trazado 113726" d="M16.76,33.537,30.4,25.666v-16L16.76,17.542Z" transform="translate(-3.117 -1.798)" fill="#423eaf"/>
+        <path id="Trazado_113727" data-name="Trazado 113727" d="M13.643,33.537,0,25.666v-16l13.643,7.872Z" transform="translate(0 -1.798)" fill="#6b67e9"/>
+        <path id="Trazado_113728" data-name="Trazado 113728" d="M13.643,15.743,0,7.872,13.643,0,27.286,7.872Z" fill="#ffaf6d"/>
+      </g>
+      <g id="Grupo_80385" data-name="Grupo 80385" transform="translate(11.413 28.076)">
+        <path id="Trazado_113729" data-name="Trazado 113729" d="M68.081,62.25H37.71L56.986,73.386,37.71,84.514H68.081L87.357,73.386Z" transform="translate(-18.426 -39.653)" fill="url(#linear-gradient-2)"/>
+        <path id="Trazado_113730" data-name="Trazado 113730" d="M37.71,81.895,56.986,70.767V48.17L37.71,59.29Z" transform="translate(-18.426 -37.034)" fill="#b9bee4"/>
+        <path id="Trazado_113731" data-name="Trazado 113731" d="M33.3,81.895,14.02,70.767V48.17L33.3,59.29Z" transform="translate(-14.02 -37.034)" fill="#ccd1f6"/>
+        <path id="Trazado_113732" data-name="Trazado 113732" d="M33.3,56.745,14.02,45.626,33.3,34.49,52.58,45.626Z" transform="translate(-14.02 -34.49)" fill="#f4f4f9"/>
+      </g>
+    </g>
+  </g>
+</svg>
