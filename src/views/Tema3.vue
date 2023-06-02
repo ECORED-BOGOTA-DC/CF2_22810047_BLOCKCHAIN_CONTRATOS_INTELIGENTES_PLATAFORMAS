@@ -670,7 +670,7 @@
           img(src="@/assets/curso/tema3/img15.svg")
     
     p Una vez se defina la función, la invoca desde algún lugar del programa, tan solo con citar el nombre de la función y cargar los parámetros en caso de ser necesarios y hayan sido implementados en dicha función.
-    p.mb-5 A continuación, se puede ver un ejemplo de una declaración de una función que suma dos y retorna el resultado, este puede ser recibido y asignado en una variable que debe tener el mismo tipo de dato que la función.
+    p.mb-5 A continuación, podemos ver un ejemplo de una declaración de una función que suma dos números y retorna el resultado, el cual puede ser recibido y asignado en una variable que debe tener el mismo tipo de dato que la función:
 
     .row.justify-content-center.mb-5
       .col-lg-8

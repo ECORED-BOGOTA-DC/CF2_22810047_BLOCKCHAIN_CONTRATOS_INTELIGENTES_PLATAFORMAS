@@ -298,7 +298,7 @@ export default {
         },
         {
           nombre: 'Liliana Morales',
-          cargo: 'Liliana Victoria Morales Gualdron',
+          cargo: 'Responsable de la línea de Producción -2023',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

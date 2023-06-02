@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.BGIMG03.p-4.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-0 La arquitectura de #[em blockchain] de Ethereum es una de las más grandes y de las más utilizadas en proyectos de aplicaciones y contratos inteligentes sobre #[em blockchain], su nivel de innovación y que ha dispuesto las herramientas necesarias para que la comunidad de desarrolladores y usuarios puedan hacer uso de la misma de manera fácil, su propuesta de Ethereum Virtual Machine (EVM) brinda una máquina virtual con la cual puede dar inicio al desarrollo y construcción de proyectos bajo esta plataforma. 
+        p.mb-0 La arquitectura de #[em blockchain] de Ethereum es una de las más grandes y de las más utilizadas en proyectos de aplicaciones y contratos inteligentes sobre #[em blockchain], esto se debe en un principio a que es una de las primeras redes, su nivel de innovación y que ha dispuesto las herramientas necesarias para que la comunidad de desarrolladores y usuarios puedan hacer uso de la misma de manera fácil, su propuesta de Ethereum Virtual Machine (EVM) brinda una máquina virtual con la cual puede dar inicio al desarrollo y construcción de proyectos bajo esta plataforma. 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img01.png")
       
